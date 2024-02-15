@@ -1,0 +1,6 @@
+snavquad_interface
+/home/root/kumarRobotics/autonomy_ws/devel/.private/snavquad_interface/cmake.lock /home/root/kumarRobotics/autonomy_ws/devel/./cmake.lock
+/home/root/kumarRobotics/autonomy_ws/devel/.private/snavquad_interface/lib/pkgconfig/snavquad_interface.pc /home/root/kumarRobotics/autonomy_ws/devel/lib/pkgconfig/snavquad_interface.pc
+/home/root/kumarRobotics/autonomy_ws/devel/.private/snavquad_interface/lib/snavquad_interface/tf_pub /home/root/kumarRobotics/autonomy_ws/devel/lib/snavquad_interface/tf_pub
+/home/root/kumarRobotics/autonomy_ws/devel/.private/snavquad_interface/share/snavquad_interface/cmake/snavquad_interfaceConfig.cmake /home/root/kumarRobotics/autonomy_ws/devel/share/snavquad_interface/cmake/snavquad_interfaceConfig.cmake
+/home/root/kumarRobotics/autonomy_ws/devel/.private/snavquad_interface/share/snavquad_interface/cmake/snavquad_interfaceConfig-version.cmake /home/root/kumarRobotics/autonomy_ws/devel/share/snavquad_interface/cmake/snavquad_interfaceConfig-version.cmake

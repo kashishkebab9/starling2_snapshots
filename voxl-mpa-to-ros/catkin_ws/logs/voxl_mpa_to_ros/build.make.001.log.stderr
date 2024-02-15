@@ -1,0 +1,34 @@
+make[2]: Warning: File '/home/root/kumarRobotics/voxl-mpa-to-ros/catkin_ws/src/src/interface_manager.cpp' has modification time 449485 s in the future
+In file included from [01m[K/home/root/kumarRobotics/voxl-mpa-to-ros/catkin_ws/src/src/interfaces/ai_detection_interface.cpp:34:0[m[K:
+[01m[K/home/root/kumarRobotics/voxl-mpa-to-ros/catkin_ws/src/./include/interfaces/ai_detection_interface.h:38:10:[m[K [01;31m[Kfatal error: [m[Kvoxl_mpa_to_ros/AiDetection.h: No such file or directory
+ #include [01;31m[K<voxl_mpa_to_ros/AiDetection.h>[m[K
+          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/voxl_mpa_to_ros_node.dir/src/interfaces/ai_detection_interface.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[2]: Warning: File '/home/root/kumarRobotics/voxl-mpa-to-ros/catkin_ws/src/msg/AiDetection.msg' has modification time 449484 s in the future
+In file included from [01m[K/home/root/kumarRobotics/voxl-mpa-to-ros/catkin_ws/src/./include/interfaces/all_interfaces.h:43:0[m[K,
+                 from [01m[K/home/root/kumarRobotics/voxl-mpa-to-ros/catkin_ws/src/src/interface_manager.cpp:36[m[K:
+[01m[K/home/root/kumarRobotics/voxl-mpa-to-ros/catkin_ws/src/./include/interfaces/ai_detection_interface.h:38:10:[m[K [01;31m[Kfatal error: [m[Kvoxl_mpa_to_ros/AiDetection.h: No such file or directory
+ #include [01;31m[K<voxl_mpa_to_ros/AiDetection.h>[m[K
+          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/voxl_mpa_to_ros_node.dir/src/interface_manager.cpp.o] Error 1
+make[2]: Warning: File '/home/root/kumarRobotics/voxl-mpa-to-ros/catkin_ws/src/msg/AiDetection.msg' has modification time 449484 s in the future
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+make[2]: Warning: File '/home/root/kumarRobotics/voxl-mpa-to-ros/catkin_ws/src/msg/AiDetection.msg' has modification time 449483 s in the future
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+make[2]: Warning: File '/home/root/kumarRobotics/voxl-mpa-to-ros/catkin_ws/src/msg/AiDetection.msg' has modification time 449483 s in the future
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+make[2]: Warning: File '/home/root/kumarRobotics/voxl-mpa-to-ros/catkin_ws/src/msg/AiDetection.msg' has modification time 449483 s in the future
+[01m[K/home/root/kumarRobotics/voxl-mpa-to-ros/catkin_ws/src/src/interfaces/vio_interface.cpp:[m[K In function '[01m[Kvoid _helper_cb(int, char*, int, void*)[m[K':
+[01m[K/home/root/kumarRobotics/voxl-mpa-to-ros/catkin_ws/src/src/interfaces/vio_interface.cpp:151:12:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kcovariance_mpa_size[m[K' [[01;35m[K-Wunused-variable[m[K]
+  const int [01;35m[Kcovariance_mpa_size[m[K = 21;
+            [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/root/kumarRobotics/voxl-mpa-to-ros/catkin_ws/src/src/interfaces/vio_interface.cpp:152:12:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kcovariance_odom_size[m[K' [[01;35m[K-Wunused-variable[m[K]
+  const int [01;35m[Kcovariance_odom_size[m[K = 36;
+            [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+make[1]: *** [CMakeFiles/voxl_mpa_to_ros_node.dir/all] Error 2
+make: *** [all] Error 2

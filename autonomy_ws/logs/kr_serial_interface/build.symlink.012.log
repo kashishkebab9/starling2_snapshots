@@ -1,0 +1,4 @@
+Linked: (/home/root/kumarRobotics/autonomy_ws/devel/.private/kr_serial_interface/lib/libkr_serial_interface.so, /home/root/kumarRobotics/autonomy_ws/devel/lib/libkr_serial_interface.so)
+Linked: (/home/root/kumarRobotics/autonomy_ws/devel/.private/kr_serial_interface/lib/pkgconfig/kr_serial_interface.pc, /home/root/kumarRobotics/autonomy_ws/devel/lib/pkgconfig/kr_serial_interface.pc)
+Linked: (/home/root/kumarRobotics/autonomy_ws/devel/.private/kr_serial_interface/share/kr_serial_interface/cmake/kr_serial_interfaceConfig.cmake, /home/root/kumarRobotics/autonomy_ws/devel/share/kr_serial_interface/cmake/kr_serial_interfaceConfig.cmake)
+Linked: (/home/root/kumarRobotics/autonomy_ws/devel/.private/kr_serial_interface/share/kr_serial_interface/cmake/kr_serial_interfaceConfig-version.cmake, /home/root/kumarRobotics/autonomy_ws/devel/share/kr_serial_interface/cmake/kr_serial_interfaceConfig-version.cmake)

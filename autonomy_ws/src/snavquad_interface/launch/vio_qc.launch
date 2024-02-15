@@ -1,0 +1,40 @@
+<launch>
+  <arg name="mav_name" default="$(optenv MAV_NAME)"/>
+
+  <arg name="control_rate" default="150"/>
+  <arg name="show_down_img" default="false"/>
+  <arg name="down_img_pub_rate" default="5"/>
+  <arg name="publish_vioqc_map" default="false"/>
+  <arg name="vio_frame_id" default="imu"/>
+  <arg name="odom_frame_id" default="odom"/>
+  <arg name="odom_topic" default="quadrotor_ukf/control_odom"/>
+
+  <group ns="$(arg mav_name)">
+
+    <node pkg="vio_qc"
+      type="MVSampleVISLAMEagle"
+      name="MVSampleVISLAMEagle"
+      output="screen" args = "-a">
+      <remap from="~vio_pose" to="vio_pose"/>
+      <remap from="~imu" to="imu"/>
+      <param name="show_img_ros" type="bool" value="$(arg show_down_img)" />
+      <param name="down_img_pub_rate" type="int" value="$(arg down_img_pub_rate)" />
+      <param name="control_rate" type="int" value="$(arg control_rate)" />
+      <param name="frame_id" value="$(arg vio_frame_id)"/>
+    </node>
+
+    <node pkg="quadrotor_ukf"
+      type="quadrotor_ukf"
+      name="quadrotor_ukf"
+      output="screen">
+      <remap from="~odom_slam" to="vio_pose"/>
+      <remap from="~imu" to="imu"/>
+      <param name="frame_id" value="$(arg odom_frame_id)"/>
+    </node>
+
+    <node name="vioqc_map_pc_pub" pkg="groundstation_vio_qc" type="vioqc_map_pc_pub" output="screen" if="$(arg publish_vioqc_map)">
+      <remap from="~current_vio_map" to="MVSampleVISLAMEagle/vio_pc"/>
+    </node>
+
+  </group>
+</launch>

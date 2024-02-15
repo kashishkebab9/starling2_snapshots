@@ -1,0 +1,2 @@
+kr_mav_control/interfaces/kr_qualcomm_interface
+/home/root/kumarRobotics/autonomy_ws/devel/.private/kr_qualcomm_interface/cmake.lock /home/root/kumarRobotics/autonomy_ws/devel/./cmake.lock

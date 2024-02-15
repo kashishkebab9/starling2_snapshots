@@ -1,0 +1,15 @@
+[35m[1mScanning dependencies of target so3cmd_to_mavros_nodelet[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/so3cmd_to_mavros_nodelet.dir/src/so3cmd_to_mavros_nodelet.cpp.o[0m
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/kr_falcon250_interface/mavros_interface/src/so3cmd_to_mavros_nodelet.cpp:[m[K In member function '[01m[Kvoid SO3CmdToMavros::so3_cmd_callback(const ConstPtr&)[m[K':
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/kr_falcon250_interface/mavros_interface/src/so3cmd_to_mavros_nodelet.cpp:178:3:[m[K [01;31m[Kerror: [m[K'[01m[Kelse[m[K' without a previous '[01m[Kif[m[K'
+   [01;31m[Kelse[m[K if (thrust_model_ == TM_MIKE)
+   [01;31m[K^~~~[m[K
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/kr_falcon250_interface/mavros_interface/src/so3cmd_to_mavros_nodelet.cpp:181:3:[m[K [01;31m[Kerror: [m[K'[01m[Kelse[m[K' without a previous '[01m[Kif[m[K'
+   [01;31m[Kelse[m[K
+   [01;31m[K^~~~[m[K
+CMakeFiles/so3cmd_to_mavros_nodelet.dir/build.make:62: recipe for target 'CMakeFiles/so3cmd_to_mavros_nodelet.dir/src/so3cmd_to_mavros_nodelet.cpp.o' failed
+make[2]: *** [CMakeFiles/so3cmd_to_mavros_nodelet.dir/src/so3cmd_to_mavros_nodelet.cpp.o] Error 1
+make[1]: *** [CMakeFiles/so3cmd_to_mavros_nodelet.dir/all] Error 2
+CMakeFiles/Makefile2:419: recipe for target 'CMakeFiles/so3cmd_to_mavros_nodelet.dir/all' failed
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

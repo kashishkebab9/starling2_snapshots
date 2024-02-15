@@ -1,0 +1,131 @@
+make[2]: Warning: File '/home/root/kumarRobotics/voxl-mpa-to-ros/catkin_ws/src/src/interface_manager.cpp' has modification time 449891 s in the future
+In file included from [01m[K/usr/include/modal_pipe_client.h:25:0[m[K,
+                 from [01m[K/usr/include/modal_pipe.h:23[m[K,
+                 from [01m[K/home/root/kumarRobotics/voxl-mpa-to-ros/catkin_ws/src/src/interfaces/imu_interface.cpp:33[m[K:
+[01m[K/usr/include/modal_pipe_interfaces.h:870:11:[m[K [01;31m[Kerror: [m[Kmissing terminating ' character
+  * You don[01;31m[K't have to use this read buffer size, but it is HIGHLY recommended to[m[K
+           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/modal_pipe_client.h:25:0[m[K,
+                 from [01m[K/usr/include/modal_pipe.h:23[m[K,
+                 from [01m[K/home/root/kumarRobotics/voxl-mpa-to-ros/catkin_ws/src/src/interfaces/vio_interface.cpp:33[m[K:
+[01m[K/usr/include/modal_pipe_interfaces.h:870:11:[m[K [01;31m[Kerror: [m[Kmissing terminating ' character
+  * You don[01;31m[K't have to use this read buffer size, but it is HIGHLY recommended to[m[K
+           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/modal_pipe_client.h:25:0[m[K,
+                 from [01m[K/usr/include/modal_pipe.h:23[m[K,
+                 from [01m[K/home/root/kumarRobotics/voxl-mpa-to-ros/catkin_ws/src/src/interfaces/stereo_interface.cpp:33[m[K:
+[01m[K/usr/include/modal_pipe_interfaces.h:870:11:[m[K [01;31m[Kerror: [m[Kmissing terminating ' character
+  * You don[01;31m[K't have to use this read buffer size, but it is HIGHLY recommended to[m[K
+           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/modal_pipe_client.h:25:0[m[K,
+                 from [01m[K/usr/include/modal_pipe.h:23[m[K,
+                 from [01m[K/home/root/kumarRobotics/voxl-mpa-to-ros/catkin_ws/src/src/interfaces/point_cloud_interface.cpp:33[m[K:
+[01m[K/usr/include/modal_pipe_interfaces.h:870:11:[m[K [01;31m[Kerror: [m[Kmissing terminating ' character
+  * You don[01;31m[K't have to use this read buffer size, but it is HIGHLY recommended to[m[K
+           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/modal_pipe_client.h:25:0[m[K,
+                 from [01m[K/usr/include/modal_pipe.h:23[m[K,
+                 from [01m[K/home/root/kumarRobotics/voxl-mpa-to-ros/catkin_ws/src/src/interfaces/ai_detection_interface.cpp:33[m[K:
+[01m[K/usr/include/modal_pipe_interfaces.h:870:11:[m[K [01;31m[Kerror: [m[Kmissing terminating ' character
+  * You don[01;31m[K't have to use this read buffer size, but it is HIGHLY recommended to[m[K
+           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/modal_pipe_client.h:25:0[m[K,
+                 from [01m[K/usr/include/modal_pipe.h:23[m[K,
+                 from [01m[K/home/root/kumarRobotics/voxl-mpa-to-ros/catkin_ws/src/src/interfaces/camera_interface.cpp:33[m[K:
+[01m[K/usr/include/modal_pipe_interfaces.h:870:11:[m[K [01;31m[Kerror: [m[Kmissing terminating ' character
+  * You don[01;31m[K't have to use this read buffer size, but it is HIGHLY recommended to[m[K
+           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/modal_pipe_client.h:25:0[m[K,
+                 from [01m[K/usr/include/modal_pipe.h:23[m[K,
+                 from [01m[K/home/root/kumarRobotics/voxl-mpa-to-ros/catkin_ws/src/src/interfaces/point_cloud_interface.cpp:33[m[K:
+[01m[K/usr/include/modal_pipe_interfaces.h:869:1:[m[K [01;31m[Kerror: [m[K'[01m[Kc[m[K' does not name a type
+ [01;31m[Kc[m[K**
+ [01;31m[K^[m[K
+In file included from [01m[K/usr/include/modal_pipe_client.h:25:0[m[K,
+                 from [01m[K/usr/include/modal_pipe.h:23[m[K,
+                 from [01m[K/home/root/kumarRobotics/voxl-mpa-to-ros/catkin_ws/src/src/interfaces/imu_interface.cpp:33[m[K:
+[01m[K/usr/include/modal_pipe_interfaces.h:869:1:[m[K [01;31m[Kerror: [m[K'[01m[Kc[m[K' does not name a type
+ [01;31m[Kc[m[K**
+ [01;31m[K^[m[K
+In file included from [01m[K/usr/include/modal_pipe_client.h:25:0[m[K,
+                 from [01m[K/usr/include/modal_pipe.h:23[m[K,
+                 from [01m[K/home/root/kumarRobotics/voxl-mpa-to-ros/catkin_ws/src/src/interfaces/vio_interface.cpp:33[m[K:
+[01m[K/usr/include/modal_pipe_interfaces.h:869:1:[m[K [01;31m[Kerror: [m[K'[01m[Kc[m[K' does not name a type
+ [01;31m[Kc[m[K**
+ [01;31m[K^[m[K
+In file included from [01m[K/usr/include/modal_pipe_client.h:25:0[m[K,
+                 from [01m[K/usr/include/modal_pipe.h:23[m[K,
+                 from [01m[K/home/root/kumarRobotics/voxl-mpa-to-ros/catkin_ws/src/src/interfaces/stereo_interface.cpp:33[m[K:
+[01m[K/usr/include/modal_pipe_interfaces.h:869:1:[m[K [01;31m[Kerror: [m[K'[01m[Kc[m[K' does not name a type
+ [01;31m[Kc[m[K**
+ [01;31m[K^[m[K
+In file included from [01m[K/usr/include/modal_pipe_client.h:25:0[m[K,
+                 from [01m[K/usr/include/modal_pipe.h:23[m[K,
+                 from [01m[K/home/root/kumarRobotics/voxl-mpa-to-ros/catkin_ws/src/src/mpa_ros_node.cpp:40[m[K:
+[01m[K/usr/include/modal_pipe_interfaces.h:870:11:[m[K [01;31m[Kerror: [m[Kmissing terminating ' character
+  * You don[01;31m[K't have to use this read buffer size, but it is HIGHLY recommended to[m[K
+           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/root/kumarRobotics/voxl-mpa-to-ros/catkin_ws/src/src/interfaces/ai_detection_interface.cpp:34:0[m[K:
+[01m[K/home/root/kumarRobotics/voxl-mpa-to-ros/catkin_ws/src/./include/interfaces/ai_detection_interface.h:38:10:[m[K [01;31m[Kfatal error: [m[Kvoxl_mpa_to_ros/AiDetection.h: No such file or directory
+ #include [01;31m[K<voxl_mpa_to_ros/AiDetection.h>[m[K
+          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/voxl_mpa_to_ros_node.dir/src/interfaces/ai_detection_interface.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/usr/include/modal_pipe_client.h:25:0[m[K,
+                 from [01m[K/usr/include/modal_pipe.h:23[m[K,
+                 from [01m[K/home/root/kumarRobotics/voxl-mpa-to-ros/catkin_ws/src/src/interfaces/camera_interface.cpp:33[m[K:
+[01m[K/usr/include/modal_pipe_interfaces.h:869:1:[m[K [01;31m[Kerror: [m[K'[01m[Kc[m[K' does not name a type
+ [01;31m[Kc[m[K**
+ [01;31m[K^[m[K
+In file included from [01m[K/usr/include/modal_pipe_client.h:25:0[m[K,
+                 from [01m[K/usr/include/modal_pipe.h:23[m[K,
+                 from [01m[K/home/root/kumarRobotics/voxl-mpa-to-ros/catkin_ws/src/./include/interfaces/generic_interface.h:39[m[K,
+                 from [01m[K/home/root/kumarRobotics/voxl-mpa-to-ros/catkin_ws/src/./include/interfaces/all_interfaces.h:37[m[K,
+                 from [01m[K/home/root/kumarRobotics/voxl-mpa-to-ros/catkin_ws/src/src/interface_manager.cpp:36[m[K:
+[01m[K/usr/include/modal_pipe_interfaces.h:870:11:[m[K [01;31m[Kerror: [m[Kmissing terminating ' character
+  * You don[01;31m[K't have to use this read buffer size, but it is HIGHLY recommended to[m[K
+           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+make[2]: Warning: File '/home/root/kumarRobotics/voxl-mpa-to-ros/catkin_ws/src/msg/AiDetection.msg' has modification time 449889 s in the future
+In file included from [01m[K/home/root/kumarRobotics/voxl-mpa-to-ros/catkin_ws/src/./include/interfaces/all_interfaces.h:43:0[m[K,
+                 from [01m[K/home/root/kumarRobotics/voxl-mpa-to-ros/catkin_ws/src/src/interface_manager.cpp:36[m[K:
+[01m[K/home/root/kumarRobotics/voxl-mpa-to-ros/catkin_ws/src/./include/interfaces/ai_detection_interface.h:38:10:[m[K [01;31m[Kfatal error: [m[Kvoxl_mpa_to_ros/AiDetection.h: No such file or directory
+ #include [01;31m[K<voxl_mpa_to_ros/AiDetection.h>[m[K
+          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/voxl_mpa_to_ros_node.dir/src/interface_manager.cpp.o] Error 1
+make[2]: Warning: File '/home/root/kumarRobotics/voxl-mpa-to-ros/catkin_ws/src/msg/AiDetection.msg' has modification time 449889 s in the future
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+make[2]: Warning: File '/home/root/kumarRobotics/voxl-mpa-to-ros/catkin_ws/src/msg/AiDetection.msg' has modification time 449889 s in the future
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+make[2]: Warning: File '/home/root/kumarRobotics/voxl-mpa-to-ros/catkin_ws/src/msg/AiDetection.msg' has modification time 449889 s in the future
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+make[2]: Warning: File '/home/root/kumarRobotics/voxl-mpa-to-ros/catkin_ws/src/msg/AiDetection.msg' has modification time 449889 s in the future
+[01m[K/home/root/kumarRobotics/voxl-mpa-to-ros/catkin_ws/src/src/interfaces/vio_interface.cpp:[m[K In function '[01m[Kvoid _helper_cb(int, char*, int, void*)[m[K':
+[01m[K/home/root/kumarRobotics/voxl-mpa-to-ros/catkin_ws/src/src/interfaces/vio_interface.cpp:100:30:[m[K [01;31m[Kerror: [m[K'[01m[Kpipe_validate_vio_data_t[m[K' was not declared in this scope
+     vio_data_t* data_array = [01;31m[Kpipe_validate_vio_data_t[m[K(data, bytes, &n_packets);
+                              [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/root/kumarRobotics/voxl-mpa-to-ros/catkin_ws/src/src/interfaces/vio_interface.cpp:100:30:[m[K [01;36m[Knote: [m[Ksuggested alternative: '[01m[Kpipe_validate_imu_data_t[m[K'
+     vio_data_t* data_array = [01;36m[Kpipe_validate_vio_data_t[m[K(data, bytes, &n_packets);
+                              [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+                              [32m[Kpipe_validate_imu_data_t[m[K
+[01m[K/home/root/kumarRobotics/voxl-mpa-to-ros/catkin_ws/src/src/interfaces/vio_interface.cpp:151:12:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kcovariance_mpa_size[m[K' [[01;35m[K-Wunused-variable[m[K]
+  const int [01;35m[Kcovariance_mpa_size[m[K = 21;
+            [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/root/kumarRobotics/voxl-mpa-to-ros/catkin_ws/src/src/interfaces/vio_interface.cpp:152:12:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kcovariance_odom_size[m[K' [[01;35m[K-Wunused-variable[m[K]
+  const int [01;35m[Kcovariance_odom_size[m[K = 36;
+            [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[01m[K/usr/include/modal_pipe_interfaces.h:869:1:[m[K [01;31m[Kerror: [m[K'[01m[Kc[m[K' does not name a type
+ [01;31m[Kc[m[K**
+ [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/voxl_mpa_to_ros_node.dir/src/interfaces/point_cloud_interface.cpp.o] Error 1
+make[2]: *** [CMakeFiles/voxl_mpa_to_ros_node.dir/src/interfaces/imu_interface.cpp.o] Error 1
+make[2]: *** [CMakeFiles/voxl_mpa_to_ros_node.dir/src/interfaces/stereo_interface.cpp.o] Error 1
+make[2]: *** [CMakeFiles/voxl_mpa_to_ros_node.dir/src/interfaces/camera_interface.cpp.o] Error 1
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+make[2]: *** [CMakeFiles/voxl_mpa_to_ros_node.dir/src/interfaces/vio_interface.cpp.o] Error 1
+make[2]: *** [CMakeFiles/voxl_mpa_to_ros_node.dir/src/mpa_ros_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/voxl_mpa_to_ros_node.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [all] Error 2

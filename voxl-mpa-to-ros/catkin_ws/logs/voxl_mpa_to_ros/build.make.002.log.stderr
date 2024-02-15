@@ -1,0 +1,19 @@
+make[2]: Warning: File '/home/root/kumarRobotics/voxl-mpa-to-ros/catkin_ws/src/src/interface_manager.cpp' has modification time 449416 s in the future
+make[2]: Warning: File '/home/root/kumarRobotics/voxl-mpa-to-ros/catkin_ws/src/msg/AiDetection.msg' has modification time 449416 s in the future
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+make[2]: Warning: File '/home/root/kumarRobotics/voxl-mpa-to-ros/catkin_ws/src/msg/AiDetection.msg' has modification time 449416 s in the future
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+make[2]: Warning: File '/home/root/kumarRobotics/voxl-mpa-to-ros/catkin_ws/src/msg/AiDetection.msg' has modification time 449416 s in the future
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+make[2]: Warning: File '/home/root/kumarRobotics/voxl-mpa-to-ros/catkin_ws/src/msg/AiDetection.msg' has modification time 449415 s in the future
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+make[2]: Warning: File '/home/root/kumarRobotics/voxl-mpa-to-ros/catkin_ws/src/msg/AiDetection.msg' has modification time 449415 s in the future
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[01m[K/home/root/kumarRobotics/voxl-mpa-to-ros/catkin_ws/src/src/interfaces/vio_interface.cpp:[m[K In function '[01m[Kvoid _helper_cb(int, char*, int, void*)[m[K':
+[01m[K/home/root/kumarRobotics/voxl-mpa-to-ros/catkin_ws/src/src/interfaces/vio_interface.cpp:151:12:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kcovariance_mpa_size[m[K' [[01;35m[K-Wunused-variable[m[K]
+  const int [01;35m[Kcovariance_mpa_size[m[K = 21;
+            [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/root/kumarRobotics/voxl-mpa-to-ros/catkin_ws/src/src/interfaces/vio_interface.cpp:152:12:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kcovariance_odom_size[m[K' [[01;35m[K-Wunused-variable[m[K]
+  const int [01;35m[Kcovariance_odom_size[m[K = 36;
+            [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.

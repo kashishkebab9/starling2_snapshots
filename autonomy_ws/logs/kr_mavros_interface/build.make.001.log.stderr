@@ -1,0 +1,16 @@
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/kr_mav_control/interfaces/kr_mavros_interface/src/so3cmd_to_mavros_nodelet.cpp:[m[K In member function '[01m[Kvoid SO3CmdToMavros::so3_cmd_callback(const ConstPtr&)[m[K':
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/kr_mav_control/interfaces/kr_mavros_interface/src/so3cmd_to_mavros_nodelet.cpp:127:3:[m[K [01;31m[Kerror: [m[Kexpected '[01m[K;[m[K' before '[01m[Kthrottle[m[K'
+   [01;31m[Kthrottle[m[K = std::sqrt(throttle / num_props_ / kf_);
+   [01;31m[K^~~~~~~~[m[K
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/kr_mav_control/interfaces/kr_mavros_interface/src/so3cmd_to_mavros_nodelet.cpp:131:3:[m[K [01;31m[Kerror: [m[Kexpected '[01m[K;[m[K' before '[01m[Kthrottle[m[K'
+   [01;31m[Kthrottle[m[K = lin_cof_a_ * throttle + lin_int_b_;
+   [01;31m[K^~~~~~~~[m[K
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/kr_mav_control/interfaces/kr_mavros_interface/src/so3cmd_to_mavros_nodelet.cpp:136:3:[m[K [01;31m[Kerror: [m[Kexpected '[01m[K;[m[K' before '[01m[Kif[m[K'
+   [01;31m[Kif[m[K (isnan(throttle))
+   [01;31m[K^~[m[K
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/kr_mav_control/interfaces/kr_mavros_interface/src/so3cmd_to_mavros_nodelet.cpp:146:3:[m[K [01;31m[Kerror: [m[Kexpected '[01m[K;[m[K' before '[01m[Kif[m[K'
+   [01;31m[Kif[m[K(!msg->aux.enable_motors)
+   [01;31m[K^~[m[K
+make[2]: *** [CMakeFiles/kr_mavros_interface.dir/src/so3cmd_to_mavros_nodelet.cpp.o] Error 1
+make[1]: *** [CMakeFiles/kr_mavros_interface.dir/all] Error 2
+make: *** [all] Error 2

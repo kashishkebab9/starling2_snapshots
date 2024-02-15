@@ -1,0 +1,67 @@
+-- Using CATKIN_DEVEL_PREFIX: /home/root/kumarRobotics/voxl-mpa-to-ros/catkin_ws/devel/.private/voxl_mpa_to_ros
+-- Using CMAKE_PREFIX_PATH: /home/root/kumarRobotics/voxl-mpa-to-ros/catkin_ws/devel;/opt/ros/melodic
+-- This workspace overlays: /home/root/kumarRobotics/voxl-mpa-to-ros/catkin_ws/devel;/opt/ros/melodic
+-- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python2
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/root/kumarRobotics/voxl-mpa-to-ros/catkin_ws/build/voxl_mpa_to_ros/test_results
+-- Forcing gtest/gmock from source, though one was otherwise available.
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.29
+-- BUILD_SHARED_LIBS is on
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- voxl_mpa_to_ros: 1 messages, 0 services
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/root/kumarRobotics/voxl-mpa-to-ros/catkin_ws/build/voxl_mpa_to_ros
+[35m[1mScanning dependencies of target voxl_mpa_to_ros_node[0m
+make[2]: Warning: File '/home/root/kumarRobotics/voxl-mpa-to-ros/catkin_ws/src/src/interface_manager.cpp' has modification time 449416 s in the future
+[ 16%] [32mBuilding CXX object CMakeFiles/voxl_mpa_to_ros_node.dir/src/interfaces/vio_interface.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/voxl_mpa_to_ros_node.dir/src/interfaces/stereo_interface.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/voxl_mpa_to_ros_node.dir/src/interfaces/camera_interface.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/voxl_mpa_to_ros_node.dir/src/interfaces/point_cloud_interface.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/voxl_mpa_to_ros_node.dir/src/interfaces/imu_interface.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/voxl_mpa_to_ros_node.dir/src/interfaces/ai_detection_interface.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/voxl_mpa_to_ros_node.dir/src/interface_manager.cpp.o[0m
+[ 38%] Built target _voxl_mpa_to_ros_generate_messages_check_deps_AiDetection
+make[2]: Warning: File '/home/root/kumarRobotics/voxl-mpa-to-ros/catkin_ws/src/msg/AiDetection.msg' has modification time 449416 s in the future
+[ 44%] [34m[1mGenerating C++ code from voxl_mpa_to_ros/AiDetection.msg[0m
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 44%] Built target voxl_mpa_to_ros_generate_messages_cpp
+make[2]: Warning: File '/home/root/kumarRobotics/voxl-mpa-to-ros/catkin_ws/src/msg/AiDetection.msg' has modification time 449416 s in the future
+[ 50%] [34m[1mGenerating EusLisp code from voxl_mpa_to_ros/AiDetection.msg[0m
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 55%] Built target voxl_mpa_to_ros_generate_messages_eus
+make[2]: Warning: File '/home/root/kumarRobotics/voxl-mpa-to-ros/catkin_ws/src/msg/AiDetection.msg' has modification time 449416 s in the future
+[ 61%] [34m[1mGenerating Javascript code from voxl_mpa_to_ros/AiDetection.msg[0m
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 61%] Built target voxl_mpa_to_ros_generate_messages_nodejs
+make[2]: Warning: File '/home/root/kumarRobotics/voxl-mpa-to-ros/catkin_ws/src/msg/AiDetection.msg' has modification time 449415 s in the future
+[ 66%] [34m[1mGenerating Lisp code from voxl_mpa_to_ros/AiDetection.msg[0m
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 66%] Built target voxl_mpa_to_ros_generate_messages_lisp
+make[2]: Warning: File '/home/root/kumarRobotics/voxl-mpa-to-ros/catkin_ws/src/msg/AiDetection.msg' has modification time 449415 s in the future
+[ 72%] [34m[1mGenerating Python from MSG voxl_mpa_to_ros/AiDetection[0m
+[ 77%] [34m[1mGenerating Python msg __init__.py for voxl_mpa_to_ros[0m
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 77%] Built target voxl_mpa_to_ros_generate_messages_py
+[ 83%] [32mBuilding CXX object CMakeFiles/voxl_mpa_to_ros_node.dir/src/mpa_ros_node.cpp.o[0m
+[01m[K/home/root/kumarRobotics/voxl-mpa-to-ros/catkin_ws/src/src/interfaces/vio_interface.cpp:[m[K In function '[01m[Kvoid _helper_cb(int, char*, int, void*)[m[K':
+[01m[K/home/root/kumarRobotics/voxl-mpa-to-ros/catkin_ws/src/src/interfaces/vio_interface.cpp:151:12:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kcovariance_mpa_size[m[K' [[01;35m[K-Wunused-variable[m[K]
+  const int [01;35m[Kcovariance_mpa_size[m[K = 21;
+            [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/root/kumarRobotics/voxl-mpa-to-ros/catkin_ws/src/src/interfaces/vio_interface.cpp:152:12:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kcovariance_odom_size[m[K' [[01;35m[K-Wunused-variable[m[K]
+  const int [01;35m[Kcovariance_odom_size[m[K = 36;
+            [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[ 83%] Built target voxl_mpa_to_ros_generate_messages
+[ 88%] [32mBuilding CXX object CMakeFiles/voxl_mpa_to_ros_node.dir/src/utils/camera_helpers.cpp.o[0m
+[ 94%] [32mBuilding CXX object CMakeFiles/voxl_mpa_to_ros_node.dir/src/utils/common_utils.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/root/kumarRobotics/voxl-mpa-to-ros/catkin_ws/devel/.private/voxl_mpa_to_ros/lib/voxl_mpa_to_ros/voxl_mpa_to_ros_node[0m
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[100%] Built target voxl_mpa_to_ros_node
