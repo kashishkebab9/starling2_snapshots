@@ -1,83 +1,15 @@
 [35m[1mScanning dependencies of target so3cmd_to_mavros_nodelet[0m
 [ 50%] [32mBuilding CXX object CMakeFiles/so3cmd_to_mavros_nodelet.dir/src/so3cmd_to_mavros_nodelet.cpp.o[0m
-In file included from [01m[K/opt/ros/melodic/include/nodelet/nodelet.h:39:0[m[K,
-                 from [01m[K/home/root/kumarRobotics/autonomy_ws/src/kr_falcon250_interface/mavros_interface/src/so3cmd_to_mavros_nodelet.cpp:4[m[K:
 [01m[K/home/root/kumarRobotics/autonomy_ws/src/kr_falcon250_interface/mavros_interface/src/so3cmd_to_mavros_nodelet.cpp:[m[K In function '[01m[Kstd::pair<double, double> solve_quadratic(double, double, double)[m[K':
-[01m[K/home/root/kumarRobotics/autonomy_ws/src/kr_falcon250_interface/mavros_interface/src/so3cmd_to_mavros_nodelet.cpp:94:33:[m[K [01;31m[Kerror: [m[K'[01m[Kterm_1[m[K' was not declared in this scope
-   ROS_INFO_STREAM("term_1: " << [01;31m[Kt[m[Kerm_1);
-                                 [01;31m[K^[m[K
-[01m[K/opt/ros/melodic/include/ros/console.h:358:64:[m[K [01;36m[Knote: [m[Kin definition of macro '[01m[KROSCONSOLE_PRINT_STREAM_AT_LOCATION_WITH_FILTER[m[K'
-     __rosconsole_print_stream_at_location_with_filter__ss__ << [01;36m[Kargs[m[K; \
-                                                                [01;36m[K^~~~[m[K
-[01m[K/opt/ros/melodic/include/ros/console.h:406:7:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KROSCONSOLE_PRINT_STREAM_AT_LOCATION[m[K'
-       [01;36m[KROSCONSOLE_PRINT_STREAM_AT_LOCATION[m[K(args); \
-       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
-[01m[K/opt/ros/melodic/include/ros/console.h:579:43:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KROS_LOG_STREAM_COND[m[K'
- #define ROS_LOG_STREAM(level, name, args) [01;36m[KROS_LOG_STREAM_COND[m[K(true, level, name, args)
-                                           [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
-[01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:111:31:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KROS_LOG_STREAM[m[K'
- #define ROS_INFO_STREAM(args) [01;36m[KROS_LOG_STREAM[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, args)
-                               [01;36m[K^~~~~~~~~~~~~~[m[K
-[01m[K/home/root/kumarRobotics/autonomy_ws/src/kr_falcon250_interface/mavros_interface/src/so3cmd_to_mavros_nodelet.cpp:94:3:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KROS_INFO_STREAM[m[K'
-   [01;36m[KR[m[KOS_INFO_STREAM("term_1: " << term_1);
-   [01;36m[K^[m[K
-[01m[K/home/root/kumarRobotics/autonomy_ws/src/kr_falcon250_interface/mavros_interface/src/so3cmd_to_mavros_nodelet.cpp:94:33:[m[K [01;36m[Knote: [m[Ksuggested alternative: '[01m[Kterm1[m[K'
-   ROS_INFO_STREAM("term_1: " << [01;36m[Kt[m[Kerm_1);
-                                 [01;36m[K^[m[K
-[01m[K/opt/ros/melodic/include/ros/console.h:358:64:[m[K [01;36m[Knote: [m[Kin definition of macro '[01m[KROSCONSOLE_PRINT_STREAM_AT_LOCATION_WITH_FILTER[m[K'
-     __rosconsole_print_stream_at_location_with_filter__ss__ << [01;36m[Kargs[m[K; \
-                                                                [01;36m[K^~~~[m[K
-[01m[K/opt/ros/melodic/include/ros/console.h:406:7:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KROSCONSOLE_PRINT_STREAM_AT_LOCATION[m[K'
-       [01;36m[KROSCONSOLE_PRINT_STREAM_AT_LOCATION[m[K(args); \
-       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
-[01m[K/opt/ros/melodic/include/ros/console.h:579:43:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KROS_LOG_STREAM_COND[m[K'
- #define ROS_LOG_STREAM(level, name, args) [01;36m[KROS_LOG_STREAM_COND[m[K(true, level, name, args)
-                                           [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
-[01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:111:31:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KROS_LOG_STREAM[m[K'
- #define ROS_INFO_STREAM(args) [01;36m[KROS_LOG_STREAM[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, args)
-                               [01;36m[K^~~~~~~~~~~~~~[m[K
-[01m[K/home/root/kumarRobotics/autonomy_ws/src/kr_falcon250_interface/mavros_interface/src/so3cmd_to_mavros_nodelet.cpp:94:3:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KROS_INFO_STREAM[m[K'
-   [01;36m[KR[m[KOS_INFO_STREAM("term_1: " << term_1);
-   [01;36m[K^[m[K
-[01m[K/home/root/kumarRobotics/autonomy_ws/src/kr_falcon250_interface/mavros_interface/src/so3cmd_to_mavros_nodelet.cpp:95:33:[m[K [01;31m[Kerror: [m[K'[01m[Kterm_2[m[K' was not declared in this scope
-   ROS_INFO_STREAM("term_2: " << [01;31m[Kt[m[Kerm_2);
-                                 [01;31m[K^[m[K
-[01m[K/opt/ros/melodic/include/ros/console.h:358:64:[m[K [01;36m[Knote: [m[Kin definition of macro '[01m[KROSCONSOLE_PRINT_STREAM_AT_LOCATION_WITH_FILTER[m[K'
-     __rosconsole_print_stream_at_location_with_filter__ss__ << [01;36m[Kargs[m[K; \
-                                                                [01;36m[K^~~~[m[K
-[01m[K/opt/ros/melodic/include/ros/console.h:406:7:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KROSCONSOLE_PRINT_STREAM_AT_LOCATION[m[K'
-       [01;36m[KROSCONSOLE_PRINT_STREAM_AT_LOCATION[m[K(args); \
-       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
-[01m[K/opt/ros/melodic/include/ros/console.h:579:43:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KROS_LOG_STREAM_COND[m[K'
- #define ROS_LOG_STREAM(level, name, args) [01;36m[KROS_LOG_STREAM_COND[m[K(true, level, name, args)
-                                           [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
-[01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:111:31:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KROS_LOG_STREAM[m[K'
- #define ROS_INFO_STREAM(args) [01;36m[KROS_LOG_STREAM[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, args)
-                               [01;36m[K^~~~~~~~~~~~~~[m[K
-[01m[K/home/root/kumarRobotics/autonomy_ws/src/kr_falcon250_interface/mavros_interface/src/so3cmd_to_mavros_nodelet.cpp:95:3:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KROS_INFO_STREAM[m[K'
-   [01;36m[KR[m[KOS_INFO_STREAM("term_2: " << term_2);
-   [01;36m[K^[m[K
-[01m[K/home/root/kumarRobotics/autonomy_ws/src/kr_falcon250_interface/mavros_interface/src/so3cmd_to_mavros_nodelet.cpp:95:33:[m[K [01;36m[Knote: [m[Ksuggested alternative: '[01m[Kterm2[m[K'
-   ROS_INFO_STREAM("term_2: " << [01;36m[Kt[m[Kerm_2);
-                                 [01;36m[K^[m[K
-[01m[K/opt/ros/melodic/include/ros/console.h:358:64:[m[K [01;36m[Knote: [m[Kin definition of macro '[01m[KROSCONSOLE_PRINT_STREAM_AT_LOCATION_WITH_FILTER[m[K'
-     __rosconsole_print_stream_at_location_with_filter__ss__ << [01;36m[Kargs[m[K; \
-                                                                [01;36m[K^~~~[m[K
-[01m[K/opt/ros/melodic/include/ros/console.h:406:7:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KROSCONSOLE_PRINT_STREAM_AT_LOCATION[m[K'
-       [01;36m[KROSCONSOLE_PRINT_STREAM_AT_LOCATION[m[K(args); \
-       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
-[01m[K/opt/ros/melodic/include/ros/console.h:579:43:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KROS_LOG_STREAM_COND[m[K'
- #define ROS_LOG_STREAM(level, name, args) [01;36m[KROS_LOG_STREAM_COND[m[K(true, level, name, args)
-                                           [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
-[01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:111:31:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KROS_LOG_STREAM[m[K'
- #define ROS_INFO_STREAM(args) [01;36m[KROS_LOG_STREAM[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, args)
-                               [01;36m[K^~~~~~~~~~~~~~[m[K
-[01m[K/home/root/kumarRobotics/autonomy_ws/src/kr_falcon250_interface/mavros_interface/src/so3cmd_to_mavros_nodelet.cpp:95:3:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KROS_INFO_STREAM[m[K'
-   [01;36m[KR[m[KOS_INFO_STREAM("term_2: " << term_2);
-   [01;36m[K^[m[K
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/kr_falcon250_interface/mavros_interface/src/so3cmd_to_mavros_nodelet.cpp:96:10:[m[K [01;31m[Kerror: [m[Kredeclaration of '[01m[Kdouble term2_test[m[K'
+   double [01;31m[Kterm2_test[m[K = 4*a*c ;
+          [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/kr_falcon250_interface/mavros_interface/src/so3cmd_to_mavros_nodelet.cpp:94:10:[m[K [01;36m[Knote: [m[K'[01m[Kdouble term2_test[m[K' previously declared here
+   double [01;36m[Kterm2_test[m[K = b * b ;
+          [01;36m[K^~~~~~~~~~[m[K
 CMakeFiles/so3cmd_to_mavros_nodelet.dir/build.make:62: recipe for target 'CMakeFiles/so3cmd_to_mavros_nodelet.dir/src/so3cmd_to_mavros_nodelet.cpp.o' failed
-CMakeFiles/Makefile2:419: recipe for target 'CMakeFiles/so3cmd_to_mavros_nodelet.dir/all' failed
-Makefile:140: recipe for target 'all' failed
 make[2]: *** [CMakeFiles/so3cmd_to_mavros_nodelet.dir/src/so3cmd_to_mavros_nodelet.cpp.o] Error 1
+CMakeFiles/Makefile2:419: recipe for target 'CMakeFiles/so3cmd_to_mavros_nodelet.dir/all' failed
 make[1]: *** [CMakeFiles/so3cmd_to_mavros_nodelet.dir/all] Error 2
+Makefile:140: recipe for target 'all' failed
 make: *** [all] Error 2

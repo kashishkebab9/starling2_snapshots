@@ -39,7 +39,7 @@ ImuFilterRos::ImuFilterRos(ros::NodeHandle nh, ros::NodeHandle nh_private)
     if (!nh_private_.getParam("publish_tf", publish_tf_)) publish_tf_ = true;
     if (!nh_private_.getParam("reverse_tf", reverse_tf_)) reverse_tf_ = false;
     if (!nh_private_.getParam("fixed_frame", fixed_frame_))
-        fixed_frame_ = "odom";
+        fixed_frame_ = "base_link_frd_flat";
     if (!nh_private_.getParam("constant_dt", constant_dt_)) constant_dt_ = 0.0;
     if (!nh_private_.getParam("remove_gravity_vector", remove_gravity_vector_))
         remove_gravity_vector_ = false;
@@ -61,7 +61,7 @@ ImuFilterRos::ImuFilterRos(ros::NodeHandle nh, ros::NodeHandle nh_private)
         yaw_offset_total_);  // Create this quaternion for yaw offset (radians)
 
     std::string world_frame;
-    if (!nh_private_.getParam("world_frame", world_frame)) world_frame = "enu";
+    if (!nh_private_.getParam("world_frame", world_frame)) world_frame = "ned";
 
     if (world_frame == "ned")
     {
@@ -170,7 +170,8 @@ void ImuFilterRos::imuCallback(const ImuMsg::ConstPtr& imu_msg_raw)
     const geometry_msgs::Vector3& lin_acc = imu_msg_raw->linear_acceleration;
 
     ros::Time time = imu_msg_raw->header.stamp;
-    imu_frame_ = imu_msg_raw->header.frame_id;
+    // imu_frame_ = imu_msg_raw->header.frame_id;
+    imu_frame_ = "imu_madgwick";
 
     if (!initialized_ || stateless_)
     {
@@ -233,7 +234,8 @@ void ImuFilterRos::imuMagCallback(const ImuMsg::ConstPtr& imu_msg_raw,
     const geometry_msgs::Vector3& mag_fld = mag_msg->magnetic_field;
 
     ros::Time time = imu_msg_raw->header.stamp;
-    imu_frame_ = imu_msg_raw->header.frame_id;
+    // imu_frame_ = imu_msg_raw->header.frame_id;
+    imu_frame_ = "imu_madgwick";
 
     /*** Compensate for hard iron ***/
     geometry_msgs::Vector3 mag_compensated;
@@ -330,16 +332,15 @@ void ImuFilterRos::publishTransform(const ImuMsg::ConstPtr& imu_msg_raw)
         transform.transform.rotation.x = -q1;
         transform.transform.rotation.y = -q2;
         transform.transform.rotation.z = -q3;
-    } else
-    {
-        transform.header.frame_id = fixed_frame_;
-        transform.child_frame_id = imu_frame_;
-        transform.transform.rotation.w = q0;
-        transform.transform.rotation.x = q1;
-        transform.transform.rotation.y = q2;
-        transform.transform.rotation.z = q3;
+    } else{
+	transform.header.frame_id = fixed_frame_;
+	transform.child_frame_id = imu_frame_;
+	transform.transform.rotation.w = q0;
+	transform.transform.rotation.x = q1;
+	transform.transform.rotation.y = q2;
+	transform.transform.rotation.z = q3;
+	tf_broadcaster_.sendTransform(transform);
     }
-    tf_broadcaster_.sendTransform(transform);
 }
 
 /**
@@ -376,6 +377,7 @@ void ImuFilterRos::publishFilteredMsg(const ImuMsg::ConstPtr& imu_msg_raw)
     boost::shared_ptr<ImuMsg> imu_msg =
         boost::make_shared<ImuMsg>(*imu_msg_raw);
 
+    imu_msg->header.frame_id = "base_link_frd_flat";
     imu_msg->orientation.w = q0;
     imu_msg->orientation.x = q1;
     imu_msg->orientation.y = q2;

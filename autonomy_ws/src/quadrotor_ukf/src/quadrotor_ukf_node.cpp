@@ -30,6 +30,7 @@ private:
   ros::NodeHandle pnh_;
   ros::Subscriber subImu_, subSLAM_, subPose_;
   ros::Publisher pubUKF_;
+  ros::Publisher pubMavUKF_;
   ros::Publisher pubBias_;
 
   tf2_ros::Buffer tfBuffer_;
@@ -94,8 +95,8 @@ QuadrotorUkfNode::QuadrotorUkfNode(std::string ns): nh_(ns), pnh_("~"), tf_initi
 
   pnh_.param("odom", odom_frame_id_, std::string("odom"));
   pnh_.param("imu", imu_frame_id_, std::string("imu"));
-  pnh_.param("body", body_frame_id_, std::string("body"));
-  pnh_.param("body_local", body_local_frame_id_, std::string("body_local"));
+  pnh_.param("base_link", body_frame_id_, std::string("base_link"));
+  pnh_.param("base_link_frd", body_local_frame_id_, std::string("base_link_frd"));
   pnh_.param("imu_rotated_frame_id", imu_rotated_base_frame_id_, std::string("imu_rotated_base"));
   pnh_.param("alpha", alpha, 0.4);
   pnh_.param("beta" , beta , 2.0);
@@ -132,6 +133,7 @@ QuadrotorUkfNode::QuadrotorUkfNode(std::string ns): nh_(ns), pnh_("~"), tf_initi
   subPose_ = pnh_.subscribe<geometry_msgs::PoseStamped>("/qvio/pose", 1, boost::bind(&QuadrotorUkfNode::pose_callback, this, _1));
 
   pubUKF_  = pnh_.advertise<nav_msgs::Odometry>("control_odom", 10);
+  pubMavUKF_  = pnh_.advertise<nav_msgs::Odometry>("/mavros/odometry/in", 10);
   pubBias_ = pnh_.advertise<geometry_msgs::Vector3>("imu_bias", 10);
   quadrotorUKF_.PrintxHist();
 }
@@ -268,6 +270,7 @@ void QuadrotorUkfNode::imu_callback(const sensor_msgs::Imu::ConstPtr& msg)
     // Publish odom
     odomUKF.header.stamp = quadrotorUKF_.GetStateTime();
     odomUKF.header.frame_id = odom_frame_id_;
+    odomUKF.child_frame_id = "base_link";
     Eigen::Matrix<double, Eigen::Dynamic, 1> x = quadrotorUKF_.GetState();
     for (int i = 0; i < x.rows(); ++i) {
       if (std::isnan(x(i, 0))) {
@@ -303,6 +306,29 @@ void QuadrotorUkfNode::imu_callback(const sensor_msgs::Imu::ConstPtr& msg)
     for (int j = 0; j < 3; j++)
       for (int i = 0; i < 3; i++)
         odomUKF.twist.covariance[i+j*6] = P(i+3 , j+3);
+    nav_msgs::Odometry odomMavUKF(odomUKF);
+
+
+    geometry_msgs::TransformStamped static_transformStamped;
+    static_transformStamped.header.stamp = ros::Time::now();
+    static_transformStamped.header.frame_id = "odom";
+    static_transformStamped.child_frame_id = "base_link";
+
+    static_transformStamped.transform.translation.x = odomUKF.pose.pose.position.x;
+    static_transformStamped.transform.translation.y = odomUKF.pose.pose.position.y;
+    static_transformStamped.transform.translation.z = odomUKF.pose.pose.position.z;
+
+    static_transformStamped.transform.rotation = odomUKF.pose.pose.orientation;
+
+    geometry_msgs::TransformStamped base_link_flat(static_transformStamped); //no orientation
+    tf_broadcaster.sendTransform(static_transformStamped);
+
+    base_link_flat.child_frame_id = "base_link_flat";
+    base_link_flat.transform.rotation.x = 0;
+    base_link_flat.transform.rotation.y = 0;
+    base_link_flat.transform.rotation.z = 0;
+    base_link_flat.transform.rotation.w = 1;
+    //tf_broadcaster.sendTransform(base_link_flat);
 
     pubUKF_.publish(odomUKF);
 
@@ -312,6 +338,7 @@ void QuadrotorUkfNode::imu_callback(const sensor_msgs::Imu::ConstPtr& msg)
     bias.y = x(10);
     bias.z = x(11);
     pubBias_.publish(bias);
+    
   }
 }
 
@@ -573,8 +600,8 @@ void QuadrotorUkfNode::pose_callback(const geometry_msgs::PoseStamped::ConstPtr&
 {
   geometry_msgs::TransformStamped static_transformStamped;
   static_transformStamped.header.stamp = ros::Time::now();
-  static_transformStamped.header.frame_id = "local";
-  static_transformStamped.child_frame_id = "body_local";
+  static_transformStamped.header.frame_id = "map_ned";
+  static_transformStamped.child_frame_id = "base_link_frd";
 
   static_transformStamped.transform.translation.x = pose->pose.position.x;
   static_transformStamped.transform.translation.y = pose->pose.position.y;
@@ -584,6 +611,7 @@ void QuadrotorUkfNode::pose_callback(const geometry_msgs::PoseStamped::ConstPtr&
   static_transformStamped.transform.rotation.y = pose->pose.orientation.y;
   static_transformStamped.transform.rotation.z = pose->pose.orientation.z;
   static_transformStamped.transform.rotation.w = pose->pose.orientation.w;
+
 
   tf_broadcaster.sendTransform(static_transformStamped);
 }

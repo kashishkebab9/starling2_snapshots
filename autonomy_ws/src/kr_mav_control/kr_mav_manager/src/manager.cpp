@@ -312,6 +312,11 @@ bool MAVManager::goTo(float x, float y, float z, float yaw, float v_des, float a
   goal.x = x;
   goal.y = y;
 
+  ROS_WARN_STREAM("MANAGER goto X: " << x);
+  ROS_WARN_STREAM("MANAGER goto Y: " << y);
+  ROS_WARN_STREAM("MANAGER goto Z: " << z);
+  ROS_WARN_STREAM("MANAGER yaw_ : " << yaw_);
+
   goal.relative = relative;
   // Convert relative translation in body frame to global frame
   if(relative)
@@ -319,6 +324,9 @@ bool MAVManager::goTo(float x, float y, float z, float yaw, float v_des, float a
     goal.x = x * std::cos(yaw_) - y * std::sin(yaw_);
     goal.y = x * std::sin(yaw_) + y * std::cos(yaw_);
   }
+  ROS_WARN_STREAM("MANAGER goto  after X: " << goal.x);
+  ROS_WARN_STREAM("MANAGER goto  after Y: " << goal.y);
+  ROS_WARN_STREAM("MANAGER goto  after Z: " << goal.z);
 
   goal.z = z;
   goal.yaw = yaw;

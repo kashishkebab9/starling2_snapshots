@@ -1,0 +1,31 @@
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/quadrotor_ukf/src/quadrotor_ukf_node.cpp:323:78:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\[m[K’ in program
+     geometry_msgs::TransformStamped base_link_flat(static_transformStamped); [01;31m[K\[m[K\no orientation
+                                                                              [01;31m[K^[m[K
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/quadrotor_ukf/src/quadrotor_ukf_node.cpp:323:79:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\[m[K’ in program
+     geometry_msgs::TransformStamped base_link_flat(static_transformStamped); \[01;31m[K\[m[Kno orientation
+                                                                               [01;31m[K^[m[K
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/quadrotor_ukf/src/quadrotor_ukf_node.cpp:[m[K In member function ‘[01m[Kvoid QuadrotorUkfNode::imu_callback(const ConstPtr&)[m[K’:
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/quadrotor_ukf/src/quadrotor_ukf_node.cpp:323:80:[m[K [01;31m[Kerror: [m[K‘[01m[Kno[m[K’ was not declared in this scope
+     geometry_msgs::TransformStamped base_link_flat(static_transformStamped); \\[01;31m[Kno[m[K orientation
+                                                                                [01;31m[K^~[m[K
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/quadrotor_ukf/src/quadrotor_ukf_node.cpp:323:80:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+In file included from [01m[K/usr/include/boost/concept/detail/general.hpp:12:0[m[K,
+                 from [01m[K/usr/include/boost/concept/assert.hpp:35[m[K,
+                 from [01m[K/usr/include/boost/concept_check.hpp:20[m[K,
+                 from [01m[K/usr/include/boost/range/concepts.hpp:19[m[K,
+                 from [01m[K/usr/include/boost/range/size_type.hpp:20[m[K,
+                 from [01m[K/usr/include/boost/range/size.hpp:21[m[K,
+                 from [01m[K/usr/include/boost/range/functions.hpp:20[m[K,
+                 from [01m[K/usr/include/boost/range/iterator_range_core.hpp:38[m[K,
+                 from [01m[K/usr/include/boost/lexical_cast.hpp:30[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/transport_hints.h:34[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/subscribe_options.h:33[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/node_handle.h:42[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/root/kumarRobotics/autonomy_ws/src/quadrotor_ukf/src/quadrotor_ukf_node.cpp:3[m[K:
+[01m[K/usr/include/boost/concept/detail/has_constraints.hpp:19:18:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::concepts::detail::no[m[K’
+   typedef char (&[01;36m[Kno[m[K)[2];
+                  [01;36m[K^~[m[K
+make[2]: *** [CMakeFiles/quadrotor_ukf.dir/src/quadrotor_ukf_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/quadrotor_ukf.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,19 @@
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/quadrotor_ukf/src/quadrotor_ukf_node.cpp:[m[K In constructor '[01m[KQuadrotorUkfNode::QuadrotorUkfNode(std::__cxx11::string)[m[K':
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/quadrotor_ukf/src/quadrotor_ukf_node.cpp:135:3:[m[K [01;31m[Kerror: [m[K'[01m[KpubMavUKF_[m[K' was not declared in this scope
+   [01;31m[KpubMavUKF_[m[K  = pnh_.advertise<nav_msgs::Odometry>("/mavros/odometry/in", 10);
+   [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/quadrotor_ukf/src/quadrotor_ukf_node.cpp:135:3:[m[K [01;36m[Knote: [m[Ksuggested alternative: '[01m[KpubUKF_[m[K'
+   [01;36m[KpubMavUKF_[m[K  = pnh_.advertise<nav_msgs::Odometry>("/mavros/odometry/in", 10);
+   [01;36m[K^~~~~~~~~~[m[K
+   [32m[KpubUKF_[m[K
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/quadrotor_ukf/src/quadrotor_ukf_node.cpp:[m[K In member function '[01m[Kvoid QuadrotorUkfNode::imu_callback(const ConstPtr&)[m[K':
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/quadrotor_ukf/src/quadrotor_ukf_node.cpp:311:5:[m[K [01;31m[Kerror: [m[K'[01m[KpubMavUKF_[m[K' was not declared in this scope
+     [01;31m[KpubMavUKF_[m[K.publish(odomMavUKF);
+     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/quadrotor_ukf/src/quadrotor_ukf_node.cpp:311:5:[m[K [01;36m[Knote: [m[Ksuggested alternative: '[01m[KpubUKF_[m[K'
+     [01;36m[KpubMavUKF_[m[K.publish(odomMavUKF);
+     [01;36m[K^~~~~~~~~~[m[K
+     [32m[KpubUKF_[m[K
+make[2]: *** [CMakeFiles/quadrotor_ukf.dir/src/quadrotor_ukf_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/quadrotor_ukf.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,11 @@
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/kr_falcon250_interface/mavros_interface/src/so3cmd_to_mavros_nodelet.cpp:[m[K In member function '[01m[Kdouble SO3CmdToMavros::thrust_model_kartik(double)[m[K':
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/kr_falcon250_interface/mavros_interface/src/so3cmd_to_mavros_nodelet.cpp:128:23:[m[K [01;31m[Kerror: [m[Kexpected '[01m[K;[m[K' before '[01m[K{[m[K' token
+   if (isnan(throttle) [01;31m[K{[m[K
+                       [01;31m[K^[m[K
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/kr_falcon250_interface/mavros_interface/src/so3cmd_to_mavros_nodelet.cpp:131:3:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before '[01m[Kreturn[m[K'
+   [01;31m[Kreturn[m[K throttle;
+   [01;31m[K^~~~~~[m[K
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/kr_falcon250_interface/mavros_interface/src/so3cmd_to_mavros_nodelet.cpp:131:3:[m[K [01;31m[Kerror: [m[Kexpected '[01m[K)[m[K' before '[01m[Kreturn[m[K'
+make[2]: *** [CMakeFiles/so3cmd_to_mavros_nodelet.dir/src/so3cmd_to_mavros_nodelet.cpp.o] Error 1
+make[1]: *** [CMakeFiles/so3cmd_to_mavros_nodelet.dir/all] Error 2
+make: *** [all] Error 2

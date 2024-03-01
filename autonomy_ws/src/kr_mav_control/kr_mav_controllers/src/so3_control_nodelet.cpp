@@ -138,6 +138,8 @@ void SO3ControlNodelet::position_cmd_callback(const kr_mav_msgs::PositionCommand
   kv_[0] = (cmd->use_msg_gains_flags & cmd->USE_MSG_GAINS_VELOCITY_X) ? cmd->kv[0] : config_kv_[0];
   kv_[1] = (cmd->use_msg_gains_flags & cmd->USE_MSG_GAINS_VELOCITY_Y) ? cmd->kv[1] : config_kv_[1];
   kv_[2] = (cmd->use_msg_gains_flags & cmd->USE_MSG_GAINS_VELOCITY_Z) ? cmd->kv[2] : config_kv_[2];
+  NODELET_INFO_STREAM_THROTTLE(10, "kx: " << kx_);
+  NODELET_INFO_STREAM_THROTTLE(10, "kv: " << kv_);
 
   des_yaw_ = cmd->yaw;
   des_yaw_dot_ = cmd->yaw_dot;
@@ -155,6 +157,7 @@ void SO3ControlNodelet::odom_callback(const nav_msgs::Odometry::ConstPtr &odom)
 
   const Eigen::Vector3f position(odom->pose.pose.position.x, odom->pose.pose.position.y, odom->pose.pose.position.z);
   const Eigen::Vector3f velocity(odom->twist.twist.linear.x, odom->twist.twist.linear.y, odom->twist.twist.linear.z);
+  ROS_WARN_STREAM_THROTTLE(.5, "FROM SO3CONTROL ODOM Z: " << odom->pose.pose.position.z);
 
   current_yaw_ = tf::getYaw(odom->pose.pose.orientation);
 
@@ -279,6 +282,7 @@ void SO3ControlNodelet::onInit(void)
   frame_id_ = "/" + quadrotor_name;
 
   priv_nh.param("mass", mass_, 0.5f);
+  ROS_INFO_STREAM("Mass: " << mass_);
   controller_.setMass(mass_);
   controller_.setGravity(g_);
 

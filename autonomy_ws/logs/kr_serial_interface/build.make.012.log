@@ -38,4 +38,12 @@
 [  0%] Built target kr_mav_msgs_generate_messages_lisp
 [  0%] Built target kr_mav_msgs_generate_messages_nodejs
 [  0%] Built target geometry_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target kr_serial_interface[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/kr_serial_interface.dir/src/encode_msgs.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/kr_serial_interface.dir/src/quad_encode_msg.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/kr_serial_interface.dir/src/quad_encode_msg_nodelet.cpp.o[0m
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/kr_mav_control/interfaces/kr_serial_interface/src/quad_encode_msg.cpp:24:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid trpy_cmd_callback(const ConstPtr&)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+ static void [01;35m[Ktrpy_cmd_callback[m[K(const kr_mav_msgs::TRPYCommand::ConstPtr &msg)
+             [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[ 44%] [32m[1mLinking CXX shared library /home/root/kumarRobotics/autonomy_ws/devel/.private/kr_serial_interface/lib/libkr_serial_interface.so[0m
 [100%] Built target kr_serial_interface

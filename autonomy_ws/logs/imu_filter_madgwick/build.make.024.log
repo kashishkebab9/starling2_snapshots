@@ -1,0 +1,13 @@
+[ 11%] Built target imu_filter_madgwick_gencfg
+[35m[1mScanning dependencies of target imu_filter[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/imu_filter.dir/src/imu_filter_ros.cpp.o[0m
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/imu_tools/imu_filter_madgwick/src/imu_filter_ros.cpp:[m[K In member function ‘[01m[Kvoid ImuFilterRos::publishFilteredMsg(const ConstPtr&)[m[K’:
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/imu_tools/imu_filter_madgwick/src/imu_filter_ros.cpp:380:20:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Ksensor_msgs::Imu_<std::allocator<void> >::_header_type {aka std_msgs::Header_<std::allocator<void> >}[m[K’
+     imu_msg->header[01;31m[K->[m[Kframe_id = "map_flu";
+                    [01;31m[K^~[m[K
+CMakeFiles/imu_filter.dir/build.make:86: recipe for target 'CMakeFiles/imu_filter.dir/src/imu_filter_ros.cpp.o' failed
+make[2]: *** [CMakeFiles/imu_filter.dir/src/imu_filter_ros.cpp.o] Error 1
+CMakeFiles/Makefile2:585: recipe for target 'CMakeFiles/imu_filter.dir/all' failed
+make[1]: *** [CMakeFiles/imu_filter.dir/all] Error 2
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

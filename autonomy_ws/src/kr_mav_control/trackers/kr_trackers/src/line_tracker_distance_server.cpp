@@ -116,6 +116,7 @@ void LineTrackerDistance::Deactivate(void)
 kr_mav_msgs::PositionCommand::ConstPtr LineTrackerDistance::update(const nav_msgs::Odometry::ConstPtr &msg)
 {
   // Record distance between last position and current.
+  ROS_WARN_STREAM_THROTTLE(.5,"Z Value in UPDATE: " << msg->pose.pose.position.z);
   const float dx = Eigen::Vector3f((pos_(0) - msg->pose.pose.position.x), (pos_(1) - msg->pose.pose.position.y),
                                    (pos_(2) - msg->pose.pose.position.z))
                        .norm();

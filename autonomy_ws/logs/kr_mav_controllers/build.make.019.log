@@ -1,0 +1,96 @@
+[  0%] Built target kr_mav_msgs_generate_messages_lisp
+[  0%] Built target nodelet_generate_messages_lisp
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[  0%] Built target kr_mav_msgs_generate_messages_cpp
+[  0%] Built target nav_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target kr_mav_msgs_generate_messages_eus
+[  0%] Built target tf2_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target kr_mav_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target nav_msgs_generate_messages_nodejs
+[  0%] Built target nav_msgs_generate_messages_cpp
+[  0%] Built target dynamic_reconfigure_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target dynamic_reconfigure_generate_messages_eus
+[  0%] Built target dynamic_reconfigure_generate_messages_lisp
+[  0%] Built target dynamic_reconfigure_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target nodelet_generate_messages_cpp
+[  0%] Built target bond_generate_messages_py
+[  0%] Built target bond_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target nodelet_generate_messages_nodejs
+[  0%] Built target bond_generate_messages_lisp
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target nodelet_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target bond_generate_messages_nodejs
+[  0%] Built target tf_generate_messages_eus
+[  0%] Built target actionlib_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_cpp
+[ 20%] Built target kr_mav_controllers_gencfg
+[ 20%] Built target actionlib_generate_messages_cpp
+[ 20%] Built target sensor_msgs_generate_messages_nodejs
+[ 20%] Built target bond_generate_messages_eus
+[ 20%] Built target rosgraph_msgs_generate_messages_eus
+[ 20%] Built target roscpp_generate_messages_py
+[ 20%] Built target tf_generate_messages_lisp
+[ 20%] Built target rosgraph_msgs_generate_messages_nodejs
+[ 20%] Built target rosgraph_msgs_generate_messages_lisp
+[ 20%] Built target actionlib_msgs_generate_messages_eus
+[ 20%] Built target rosgraph_msgs_generate_messages_py
+[ 20%] Built target dynamic_reconfigure_generate_messages_cpp
+[ 20%] Built target tf_generate_messages_nodejs
+[ 20%] Built target sensor_msgs_generate_messages_py
+[ 20%] Built target roscpp_generate_messages_eus
+[ 20%] Built target nodelet_generate_messages_py
+[ 20%] Built target kr_mav_msgs_generate_messages_nodejs
+[ 20%] Built target sensor_msgs_generate_messages_eus
+[ 20%] Built target tf_generate_messages_py
+[ 20%] Built target actionlib_generate_messages_eus
+[ 20%] Built target actionlib_generate_messages_nodejs
+[ 20%] Built target nav_msgs_generate_messages_eus
+[ 20%] Built target sensor_msgs_generate_messages_cpp
+[ 20%] Built target tf_generate_messages_cpp
+[ 20%] Built target tf2_msgs_generate_messages_eus
+[ 20%] Built target dynamic_reconfigure_gencfg
+[ 20%] Built target nav_msgs_generate_messages_py
+[ 20%] Built target tf2_msgs_generate_messages_cpp
+[ 20%] Built target tf2_msgs_generate_messages_lisp
+[ 20%] Built target actionlib_generate_messages_py
+[ 20%] Built target tf2_msgs_generate_messages_py
+[35m[1mScanning dependencies of target kr_mav_so3_control[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/kr_mav_so3_control.dir/src/SO3Control.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/kr_mav_so3_control.dir/src/so3_trpy_control.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/kr_mav_so3_control.dir/src/so3_control_nodelet.cpp.o[0m
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/kr_mav_control/kr_mav_controllers/src/SO3Control.cpp:64:47:[m[K [01;31m[Kerror: [m[Kmacro "ROS_DEBUG_STREAM_THROTTLE" requires 2 arguments, but only 1 given
+   ROS_DEBUG_STREAM_THROTTLE("e_pos: " << e_pos[01;31m[K)[m[K;
+                                               [01;31m[K^[m[K
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/kr_mav_control/kr_mav_controllers/src/SO3Control.cpp:65:51:[m[K [01;31m[Kerror: [m[Kmacro "ROS_DEBUG_STREAM_THROTTLE" requires 2 arguments, but only 1 given
+   ROS_DEBUG_STREAM_THROTTLE("des_pos: " << des_pos[01;31m[K)[m[K;
+                                                   [01;31m[K^[m[K
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/kr_mav_control/kr_mav_controllers/src/SO3Control.cpp:66:45:[m[K [01;31m[Kerror: [m[Kmacro "ROS_DEBUG_STREAM_THROTTLE" requires 2 arguments, but only 1 given
+   ROS_DEBUG_STREAM_THROTTLE("pos_: " << pos_[01;31m[K)[m[K;
+                                             [01;31m[K^[m[K
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/kr_mav_control/kr_mav_controllers/src/SO3Control.cpp:[m[K In member function '[01m[Kvoid SO3Control::calculateControl(const Vector3f&, const Vector3f&, const Vector3f&, const Vector3f&, float, float, const Vector3f&, const Vector3f&, const Vector3f&, const Vector3f&)[m[K':
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/kr_mav_control/kr_mav_controllers/src/SO3Control.cpp:64:3:[m[K [01;31m[Kerror: [m[K'[01m[KROS_DEBUG_STREAM_THROTTLE[m[K' was not declared in this scope
+   [01;31m[KROS_DEBUG_STREAM_THROTTLE[m[K("e_pos: " << e_pos);
+   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+CMakeFiles/kr_mav_so3_control.dir/build.make:62: recipe for target 'CMakeFiles/kr_mav_so3_control.dir/src/SO3Control.cpp.o' failed
+make[2]: *** [CMakeFiles/kr_mav_so3_control.dir/src/SO3Control.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+CMakeFiles/Makefile2:522: recipe for target 'CMakeFiles/kr_mav_so3_control.dir/all' failed
+make[1]: *** [CMakeFiles/kr_mav_so3_control.dir/all] Error 2
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

@@ -1,7 +1,7 @@
 # Common configuration for PX4 autopilot
 #
 # node:
-startup_px4_usb_quirk: true
+startup_px4_usb_quirk: false
 
 # --- system plugins ---
 
@@ -60,7 +60,7 @@ imu:
   frame_id: "base_link"
   # need find actual values
   linear_acceleration_stdev: 0.0003
-  angular_velocity_stdev: !degrees 0.02
+  angular_velocity_stdev: .0003490659 // 0.02
   orientation_stdev: 1.0
   magnetic_stdev: 0.0
 
@@ -213,19 +213,22 @@ mocap:
 
 # odom
 odometry:
-  in:
-    frame_id: "odom"
-    child_frame_id: "base_link"
-    frame_tf:
-      local_frame: "local_origin_ned"
-      body_frame_orientation: "flu"
-  out:
-    frame_tf:
+  fcu:
+    odom_parent_id_des: "map"
+    odom_child_id_des: "base_link"
+        #in:
+        #frame_id: "odom"
+        #child_frame_id: "base_link"
+        #frame_tf:
+        #local_frame: "local_origin_ned"
+        #body_frame_orientation: "flu"
+        #out:
+        #frame_tf:
       # available: check MAV_FRAME odometry local frames in
       # https://mavlink.io/en/messages/common.html
-      local_frame: "vision_ned"
+      #local_frame: "vision_ned"
       # available: ned, frd or flu (though only the tf to frd is supported)
-      body_frame_orientation: "frd"
+      #body_frame_orientation: "frd"
 
 # px4flow
 px4flow:
@@ -269,5 +272,8 @@ wheel_odometry:
 
 esc_status:
   count: 4
+
+camera:
+  frame_id: "base_link"
 
 # vim:set ts=2 sw=2 et:

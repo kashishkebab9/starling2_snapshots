@@ -11,7 +11,7 @@
     args="load imu_filter_madgwick/ImuFilterNodelet imu_manager"
     output="screen">
 
-    <param name="publish_tf" value="false"/>
+    <param name="publish_tf" value="true"/>
     <remap from="/imu/data_raw" to="/imu_apps"/>
 
 

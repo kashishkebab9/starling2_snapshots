@@ -1,0 +1,42 @@
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/kr_mav_control/kr_mav_controllers/src/SO3Control.cpp:[m[K In member function '[01m[Kvoid SO3Control::calculateControl(const Vector3f&, const Vector3f&, const Vector3f&, const Vector3f&, float, float, const Vector3f&, const Vector3f&, const Vector3f&, const Vector3f&)[m[K':
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/kr_mav_control/kr_mav_controllers/src/SO3Control.cpp:112:35:[m[K [01;31m[Kerror: [m[Kno match for '[01m[Koperator<<[m[K' (operand types are '[01m[Kconst char [8][m[K' and '[01m[KEigen::Transpose<Eigen::Matrix<float, 3, 1> >[m[K')
+   NODELET_DEBUG_STREAM( [01;31m[K"Force: " << force_.transpose()[m[K);
+                         [01;31m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:413:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Geometry:11[m[K,
+                 from [01m[K/home/root/kumarRobotics/autonomy_ws/src/kr_mav_control/kr_mav_controllers/include/kr_mav_controllers/SO3Control.h:4[m[K,
+                 from [01m[K/home/root/kumarRobotics/autonomy_ws/src/kr_mav_control/kr_mav_controllers/src/SO3Control.cpp:1[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/IO.h:216:16:[m[K [01;36m[Knote: [m[Kcandidate: template<class Derived> std::ostream& Eigen::operator<<(std::ostream&, const Eigen::DenseBase<Derived>&)
+ std::ostream & [01;36m[Koperator[m[K <<
+                [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/IO.h:216:16:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/kr_mav_control/kr_mav_controllers/src/SO3Control.cpp:112:55:[m[K [01;36m[Knote: [m[K  cannot convert '[01m[K"Force: "[m[K' (type '[01m[Kconst char [8][m[K') to type '[01m[Kstd::ostream& {aka std::basic_ostream<char>&}[m[K'
+   NODELET_DEBUG_STREAM( "Force: " << force_.transpose([01;36m[K)[m[K);
+                                                       [01;36m[K^[m[K
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/kr_mav_control/kr_mav_controllers/src/SO3Control.cpp:112:3:[m[K [01;31m[Kerror: [m[K'[01m[KNODELET_DEBUG_STREAM[m[K' was not declared in this scope
+   [01;31m[KNODELET_DEBUG_STREAM[m[K( "Force: " << force_.transpose());
+   [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/kr_mav_control/kr_mav_controllers/src/SO3Control.cpp:112:3:[m[K [01;36m[Knote: [m[Ksuggested alternative: '[01m[KROS_DEBUG_STREAM[m[K'
+   [01;36m[KNODELET_DEBUG_STREAM[m[K( "Force: " << force_.transpose());
+   [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+   [32m[KROS_DEBUG_STREAM[m[K
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/kr_mav_control/kr_mav_controllers/src/SO3Control.cpp:113:34:[m[K [01;31m[Kerror: [m[Kinvalid operands of types '[01m[Kconst char [7][m[K' and '[01m[Kfloat[m[K' to binary '[01m[Koperator<<[m[K'
+   NODELET_DEBUG_STREAM( [01;31m[K"mass: " << mass_[m[K );
+                         [01;31m[K~~~~~~~~~^~~~~~~~[m[K
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/kr_mav_control/kr_mav_controllers/src/SO3Control.cpp:114:39:[m[K [01;31m[Kerror: [m[Kno match for '[01m[Koperator<<[m[K' (operand types are '[01m[Kconst char [12][m[K' and '[01m[KEigen::Vector3f {aka Eigen::Matrix<float, 3, 1>}[m[K')
+   NODELET_DEBUG_STREAM( [01;31m[K"acc_total: " << acc_total[m[K) ;
+                         [01;31m[K~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:413:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Geometry:11[m[K,
+                 from [01m[K/home/root/kumarRobotics/autonomy_ws/src/kr_mav_control/kr_mav_controllers/include/kr_mav_controllers/SO3Control.h:4[m[K,
+                 from [01m[K/home/root/kumarRobotics/autonomy_ws/src/kr_mav_control/kr_mav_controllers/src/SO3Control.cpp:1[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/IO.h:216:16:[m[K [01;36m[Knote: [m[Kcandidate: template<class Derived> std::ostream& Eigen::operator<<(std::ostream&, const Eigen::DenseBase<Derived>&)
+ std::ostream & [01;36m[Koperator[m[K <<
+                [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/IO.h:216:16:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/kr_mav_control/kr_mav_controllers/src/SO3Control.cpp:114:42:[m[K [01;36m[Knote: [m[K  cannot convert '[01m[K"acc_total: "[m[K' (type '[01m[Kconst char [12][m[K') to type '[01m[Kstd::ostream& {aka std::basic_ostream<char>&}[m[K'
+   NODELET_DEBUG_STREAM( "acc_total: " << [01;36m[Kacc_total[m[K) ;
+                                          [01;36m[K^~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/kr_mav_so3_control.dir/src/SO3Control.cpp.o] Error 1
+make[1]: *** [CMakeFiles/kr_mav_so3_control.dir/all] Error 2
+make: *** [all] Error 2

@@ -62,6 +62,7 @@ class MAVManagerServices
   bool goToRelative_cb(kr_mav_manager::Vec4::Request &req, kr_mav_manager::Vec4::Response &res)
   {
     res.success = mav->goTo(req.goal[0], req.goal[1], req.goal[2], req.goal[3], 0.0f, 0.0f, true);
+    ROS_WARN_STREAM("GOTO GOAL: " << req.goal[0] << ", " << req.goal[1] << ", " << req.goal[2] << ", " << req.goal[3]);
     res.message = "Going To Relative Position...";
     if(res.success)
       last_cb_ = "goToRelative";

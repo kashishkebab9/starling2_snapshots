@@ -26,8 +26,8 @@ snav_deps/snap_msgs
 /home/root/kumarRobotics/autonomy_ws/devel/.private/snap_msgs/share/gennodejs/ros/snap_msgs/msg/MapPointArray.js /home/root/kumarRobotics/autonomy_ws/devel/share/gennodejs/ros/snap_msgs/msg/MapPointArray.js
 /home/root/kumarRobotics/autonomy_ws/devel/.private/snap_msgs/share/gennodejs/ros/snap_msgs/msg/_index.js /home/root/kumarRobotics/autonomy_ws/devel/share/gennodejs/ros/snap_msgs/msg/_index.js
 /home/root/kumarRobotics/autonomy_ws/devel/.private/snap_msgs/share/gennodejs/ros/snap_msgs/msg/MapPoint.js /home/root/kumarRobotics/autonomy_ws/devel/share/gennodejs/ros/snap_msgs/msg/MapPoint.js
-/home/root/kumarRobotics/autonomy_ws/devel/.private/snap_msgs/share/gennodejs/ros/snap_msgs/msg/ExposureTimes.js /home/root/kumarRobotics/autonomy_ws/devel/share/gennodejs/ros/snap_msgs/msg/ExposureTimes.js
 /home/root/kumarRobotics/autonomy_ws/devel/.private/snap_msgs/share/gennodejs/ros/snap_msgs/msg/InternalStates.js /home/root/kumarRobotics/autonomy_ws/devel/share/gennodejs/ros/snap_msgs/msg/InternalStates.js
+/home/root/kumarRobotics/autonomy_ws/devel/.private/snap_msgs/share/gennodejs/ros/snap_msgs/msg/ExposureTimes.js /home/root/kumarRobotics/autonomy_ws/devel/share/gennodejs/ros/snap_msgs/msg/ExposureTimes.js
 /home/root/kumarRobotics/autonomy_ws/devel/.private/snap_msgs/share/gennodejs/ros/snap_msgs/msg/ImuArray.js /home/root/kumarRobotics/autonomy_ws/devel/share/gennodejs/ros/snap_msgs/msg/ImuArray.js
 /home/root/kumarRobotics/autonomy_ws/devel/.private/snap_msgs/include/snap_msgs/MapPointArray.h /home/root/kumarRobotics/autonomy_ws/devel/include/snap_msgs/MapPointArray.h
 /home/root/kumarRobotics/autonomy_ws/devel/.private/snap_msgs/include/snap_msgs/MapPoint.h /home/root/kumarRobotics/autonomy_ws/devel/include/snap_msgs/MapPoint.h
@@ -36,8 +36,8 @@ snav_deps/snap_msgs
 /home/root/kumarRobotics/autonomy_ws/devel/.private/snap_msgs/include/snap_msgs/ImuArray.h /home/root/kumarRobotics/autonomy_ws/devel/include/snap_msgs/ImuArray.h
 /home/root/kumarRobotics/autonomy_ws/devel/.private/snap_msgs/lib/python2.7/dist-packages/snap_msgs/__init__.py /home/root/kumarRobotics/autonomy_ws/devel/lib/python2.7/dist-packages/snap_msgs/__init__.py
 /home/root/kumarRobotics/autonomy_ws/devel/.private/snap_msgs/lib/python2.7/dist-packages/snap_msgs/msg/_MapPointArray.py /home/root/kumarRobotics/autonomy_ws/devel/lib/python2.7/dist-packages/snap_msgs/msg/_MapPointArray.py
-/home/root/kumarRobotics/autonomy_ws/devel/.private/snap_msgs/lib/python2.7/dist-packages/snap_msgs/msg/_ExposureTimes.py /home/root/kumarRobotics/autonomy_ws/devel/lib/python2.7/dist-packages/snap_msgs/msg/_ExposureTimes.py
 /home/root/kumarRobotics/autonomy_ws/devel/.private/snap_msgs/lib/python2.7/dist-packages/snap_msgs/msg/_MapPoint.py /home/root/kumarRobotics/autonomy_ws/devel/lib/python2.7/dist-packages/snap_msgs/msg/_MapPoint.py
+/home/root/kumarRobotics/autonomy_ws/devel/.private/snap_msgs/lib/python2.7/dist-packages/snap_msgs/msg/_ExposureTimes.py /home/root/kumarRobotics/autonomy_ws/devel/lib/python2.7/dist-packages/snap_msgs/msg/_ExposureTimes.py
 /home/root/kumarRobotics/autonomy_ws/devel/.private/snap_msgs/lib/python2.7/dist-packages/snap_msgs/msg/_InternalStates.py /home/root/kumarRobotics/autonomy_ws/devel/lib/python2.7/dist-packages/snap_msgs/msg/_InternalStates.py
 /home/root/kumarRobotics/autonomy_ws/devel/.private/snap_msgs/lib/python2.7/dist-packages/snap_msgs/msg/_ImuArray.py /home/root/kumarRobotics/autonomy_ws/devel/lib/python2.7/dist-packages/snap_msgs/msg/_ImuArray.py
 /home/root/kumarRobotics/autonomy_ws/devel/.private/snap_msgs/lib/python2.7/dist-packages/snap_msgs/msg/__init__.py /home/root/kumarRobotics/autonomy_ws/devel/lib/python2.7/dist-packages/snap_msgs/msg/__init__.py

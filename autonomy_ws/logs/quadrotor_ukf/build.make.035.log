@@ -1,0 +1,57 @@
+[  0%] Built target tf2_msgs_generate_messages_py
+[  0%] Built target tf2_msgs_generate_messages_lisp
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target tf2_msgs_generate_messages_eus
+[  0%] Built target tf2_msgs_generate_messages_nodejs
+[  0%] Built target tf2_msgs_generate_messages_cpp
+[  0%] Built target actionlib_generate_messages_py
+[ 60%] Built target ukf_filter_lib
+[ 60%] Built target actionlib_msgs_generate_messages_lisp
+[ 60%] Built target rosgraph_msgs_generate_messages_py
+[ 60%] Built target rosgraph_msgs_generate_messages_nodejs
+[ 60%] Built target rosgraph_msgs_generate_messages_lisp
+[ 60%] Built target actionlib_msgs_generate_messages_eus
+[ 60%] Built target rosgraph_msgs_generate_messages_eus
+[ 60%] Built target rosgraph_msgs_generate_messages_cpp
+[ 60%] Built target std_msgs_generate_messages_eus
+[ 60%] Built target actionlib_msgs_generate_messages_cpp
+[ 60%] Built target roscpp_generate_messages_py
+[ 60%] Built target roscpp_generate_messages_eus
+[ 60%] Built target roscpp_generate_messages_nodejs
+[ 60%] Built target geometry_msgs_generate_messages_eus
+[ 60%] Built target actionlib_msgs_generate_messages_nodejs
+[ 60%] Built target geometry_msgs_generate_messages_nodejs
+[ 60%] Built target std_msgs_generate_messages_lisp
+[ 60%] Built target std_msgs_generate_messages_cpp
+[ 60%] Built target roscpp_generate_messages_lisp
+[ 60%] Built target std_msgs_generate_messages_py
+[ 60%] Built target sensor_msgs_generate_messages_eus
+[ 60%] Built target sensor_msgs_generate_messages_cpp
+[ 60%] Built target actionlib_generate_messages_cpp
+[ 60%] Built target sensor_msgs_generate_messages_py
+[ 60%] Built target std_msgs_generate_messages_nodejs
+[ 60%] Built target actionlib_generate_messages_eus
+[ 60%] Built target sensor_msgs_generate_messages_nodejs
+[ 60%] Built target geometry_msgs_generate_messages_lisp
+[ 60%] Built target geometry_msgs_generate_messages_py
+[ 60%] Built target sensor_msgs_generate_messages_lisp
+[ 60%] Built target geometry_msgs_generate_messages_cpp
+[ 60%] Built target roscpp_generate_messages_cpp
+[ 60%] Built target actionlib_generate_messages_lisp
+[ 60%] Built target actionlib_generate_messages_nodejs
+[35m[1mScanning dependencies of target quadrotor_ukf[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/quadrotor_ukf.dir/src/quadrotor_ukf_node.cpp.o[0m
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/quadrotor_ukf/src/quadrotor_ukf_node.cpp:[m[K In member function ‘[01m[Kvoid QuadrotorUkfNode::pose_callback(const ConstPtr&)[m[K’:
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/quadrotor_ukf/src/quadrotor_ukf_node.cpp:617:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kbase_linnk_frd_flat[m[K’ was not declared in this scope
+   [01;31m[Kbase_linnk_frd_flat[m[K.child_frame_id = "base_link_frd_flat";
+   [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/quadrotor_ukf/src/quadrotor_ukf_node.cpp:617:3:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kbase_link_frd_flat[m[K’
+   [01;36m[Kbase_linnk_frd_flat[m[K.child_frame_id = "base_link_frd_flat";
+   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+   [32m[Kbase_link_frd_flat[m[K
+CMakeFiles/quadrotor_ukf.dir/build.make:62: recipe for target 'CMakeFiles/quadrotor_ukf.dir/src/quadrotor_ukf_node.cpp.o' failed
+make[2]: *** [CMakeFiles/quadrotor_ukf.dir/src/quadrotor_ukf_node.cpp.o] Error 1
+CMakeFiles/Makefile2:784: recipe for target 'CMakeFiles/quadrotor_ukf.dir/all' failed
+make[1]: *** [CMakeFiles/quadrotor_ukf.dir/all] Error 2
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

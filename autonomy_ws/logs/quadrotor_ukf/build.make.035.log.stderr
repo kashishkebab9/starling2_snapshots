@@ -1,0 +1,11 @@
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/quadrotor_ukf/src/quadrotor_ukf_node.cpp:[m[K In member function ‘[01m[Kvoid QuadrotorUkfNode::pose_callback(const ConstPtr&)[m[K’:
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/quadrotor_ukf/src/quadrotor_ukf_node.cpp:617:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kbase_linnk_frd_flat[m[K’ was not declared in this scope
+   [01;31m[Kbase_linnk_frd_flat[m[K.child_frame_id = "base_link_frd_flat";
+   [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/quadrotor_ukf/src/quadrotor_ukf_node.cpp:617:3:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kbase_link_frd_flat[m[K’
+   [01;36m[Kbase_linnk_frd_flat[m[K.child_frame_id = "base_link_frd_flat";
+   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+   [32m[Kbase_link_frd_flat[m[K
+make[2]: *** [CMakeFiles/quadrotor_ukf.dir/src/quadrotor_ukf_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/quadrotor_ukf.dir/all] Error 2
+make: *** [all] Error 2

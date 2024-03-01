@@ -1,1 +1,4 @@
+[35m[1mScanning dependencies of target kr_trackers[0m
+[  7%] [32mBuilding CXX object CMakeFiles/kr_trackers.dir/src/line_tracker_distance_server.cpp.o[0m
+[ 15%] [32m[1mLinking CXX shared library /home/root/kumarRobotics/autonomy_ws/devel/.private/kr_trackers/lib/libkr_trackers.so[0m
 [100%] Built target kr_trackers

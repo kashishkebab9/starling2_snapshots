@@ -86,35 +86,38 @@ void SO3CmdToMavros::imu_callback(const sensor_msgs::Imu::ConstPtr &pose) {
 }
 
 static std::pair<double, double> solve_quadratic(double a, double b, double c) {
-  ROS_INFO("In Solve Quadratic");
-  ROS_INFO_STREAM("a: " << a);
-  ROS_INFO_STREAM("b: " << b);
-  ROS_INFO_STREAM("c: " << c);
   const double term1 = -b, term2 = std::sqrt(b * b - 4 * a * c);
-  ROS_INFO_STREAM("term_1: " << term1);
-  ROS_INFO_STREAM("term_2: " << term2);
+
 
   return std::make_pair((term1 + term2) / (2 * a), (term1 - term2) / (2 * a));
 }
 double SO3CmdToMavros::thrust_model_kartik(double thrust) {
-  ROS_INFO_STREAM("Thrust: " << thrust);
-  double avg_thrust = std::max(0.0, thrust) / num_props_;
-  ROS_INFO_STREAM("Thrust after std::max: " << avg_thrust);
+  double avg_thrust;
+  if (thrust < .0001){
+    thrust = 0.0;
+    avg_thrust = 0.0;
+  } else {
+    avg_thrust = thrust / num_props_;
+  }
+	
+  
+ 
+
 
   // Scale thrust to individual rotor velocities (RPM)
   auto rpm_solutions =
       solve_quadratic(thrust_vs_rpm_cof_a_, thrust_vs_rpm_cof_b_,
                       thrust_vs_rpm_cof_c_ - avg_thrust);
-  ROS_INFO_STREAM("rpm_solutions.first: " << rpm_solutions.first);
-  ROS_INFO_STREAM("rpm_solutions.second: " << rpm_solutions.second);
   const double omega_avg = std::max(rpm_solutions.first, rpm_solutions.second);
-  ROS_INFO_STREAM("omega_avg: " << omega_avg);
 
   // Scaling from rotor velocity (RPM) to att_throttle for pixhawk
   double throttle =
       (omega_avg - rpm_vs_throttle_coeff_b_) / rpm_vs_throttle_coeff_a_;
-  ROS_INFO_STREAM("throttle: " << throttle);
+  if (isnan(throttle)) {
+    throttle = .001;
+  }
   return throttle;
+
 }
 double SO3CmdToMavros::thrust_model_mike(double thrust) {
   // thrust = const_cof_ + bat_cof_*battery_voltage_ + throttle_cof_*throttle
@@ -175,8 +178,6 @@ void SO3CmdToMavros::so3_cmd_callback(
   {
     thrust = f_des(0) * R_cur(0, 2) + f_des(1) * R_cur(1, 2) +
              f_des(2) * R_cur(2, 2);
-    ROS_INFO_STREAM("f_des: " << f_des.matrix());
-    ROS_INFO_STREAM("R_cur: " << R_cur.matrix());
   } else {
     // thrust = f_des(0) * R_cur(0, 2) + f_des(1) * R_cur(1, 2) +
     //          f_des(2) * R_cur(2, 2);
@@ -188,10 +189,8 @@ void SO3CmdToMavros::so3_cmd_callback(
 
   double throttle = 0.0;
   if (thrust_model_ == TM_KARTIK) {
-    ROS_WARN("TM_KARTIK");
     throttle = thrust_model_kartik(thrust);
   } else if (thrust_model_ == TM_MIKE) {
-    ROS_WARN("TM_MIKE");
     throttle = thrust_model_mike(thrust);
   } else {
     ROS_ERROR_THROTTLE(1, "Unimplemented Thrust Model!!");

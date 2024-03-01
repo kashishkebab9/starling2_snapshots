@@ -11,6 +11,7 @@ SO3Control::SO3Control()
       current_orientation_(Eigen::Quaternionf::Identity()),
       cos_max_tilt_angle_(-1.0)
 {
+
 }
 
 void SO3Control::setMass(const float mass)
@@ -60,12 +61,19 @@ void SO3Control::calculateControl(const Eigen::Vector3f &des_pos, const Eigen::V
                                   const Eigen::Vector3f &ki, const Eigen::Vector3f &ki_b)
 {
   const Eigen::Vector3f e_pos = des_pos - pos_;
+  ROS_WARN_STREAM_THROTTLE(.5, "e_pos: " << e_pos.z());
+  ROS_WARN_STREAM_THROTTLE(.5, "des_pos: " << des_pos.z());
+  ROS_WARN_STREAM_THROTTLE(.5, "pos_: " << pos_.z());
   const Eigen::Vector3f e_vel = des_vel - vel_;
+  ROS_WARN_STREAM_THROTTLE(.5, "e_vel: " << e_vel.z());
+  ROS_WARN_STREAM_THROTTLE(.5, "des_vel: " << des_vel.z());
+  ROS_WARN_STREAM_THROTTLE(.5, "vel: " << vel_.z());
 
   for(int i = 0; i < 3; i++)
   {
     if(kx(i) != 0)
       pos_int_(i) += ki(i) * e_pos(i);
+      ROS_WARN_STREAM_THROTTLE(.5, "pos_int_i): " << pos_int_(i));
 
     // Limit integral term
     if(pos_int_(i) > max_pos_int_)
@@ -94,6 +102,8 @@ void SO3Control::calculateControl(const Eigen::Vector3f &des_pos, const Eigen::V
 
   const Eigen::Vector3f acc_grav = g_ * Eigen::Vector3f::UnitZ();
   const Eigen::Vector3f acc_control = kx.asDiagonal() * e_pos + kv.asDiagonal() * e_vel + pos_int_ + des_acc;
+  ROS_WARN_STREAM_THROTTLE(.5, "acc_control: " << acc_control);
+  ROS_WARN_STREAM_THROTTLE(.5, "acc_grav: " << acc_grav);
   Eigen::Vector3f acc_total = acc_control + acc_grav;
 
   // Check and limit tilt angle
@@ -108,8 +118,9 @@ void SO3Control::calculateControl(const Eigen::Vector3f &des_pos, const Eigen::V
   }
 
   force_.noalias() = mass_ * acc_total;
+  ROS_WARN_STREAM_THROTTLE(5, "mass: " << mass_);
 
-  // std::cout << "Force: " << force_.transpose() << std::endl;
+  
 
   Eigen::Vector3f b1c, b2c, b3c;
   const Eigen::Vector3f b2d(-std::sin(des_yaw), std::cos(des_yaw), 0);
