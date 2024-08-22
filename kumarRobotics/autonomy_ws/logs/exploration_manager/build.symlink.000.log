@@ -1,0 +1,6 @@
+Symlinking /home/root/kumarRobotics/autonomy_ws/devel/lib/libexploration_manager.so
+Symlinking /home/root/kumarRobotics/autonomy_ws/devel/lib/libexploration_fsm.so
+Symlinking /home/root/kumarRobotics/autonomy_ws/devel/lib/pkgconfig/exploration_manager.pc
+Symlinking /home/root/kumarRobotics/autonomy_ws/devel/lib/exploration_manager/exploration_node
+Symlinking /home/root/kumarRobotics/autonomy_ws/devel/share/exploration_manager/cmake/exploration_managerConfig.cmake
+Symlinking /home/root/kumarRobotics/autonomy_ws/devel/share/exploration_manager/cmake/exploration_managerConfig-version.cmake

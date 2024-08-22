@@ -1,0 +1,22 @@
+[35m[1mScanning dependencies of target plan_manage[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/plan_manage.dir/src/planner_manager.cpp.o[0m
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/plan_manage/src/planner_manager.cpp:[m[K In member function ‘[01m[Kdouble bg_planner::bgPlannerManager::checkTrajCollision(min_jerk::Trajectory&)[m[K’:
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/plan_manage/src/planner_manager.cpp:207:21:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kcur_pt[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+     Eigen::Vector3d [01;35m[Kcur_pt[m[K = traj.getPos(0.0);
+                     [01;35m[K^~~~~~[m[K
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/plan_manage/src/planner_manager.cpp:208:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kradius[m[K’ [[01;35m[K-Wunused-variable[m[K]
+     double [01;35m[Kradius[m[K = 0.0;
+            [01;35m[K^~~~~~[m[K
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/plan_manage/src/planner_manager.cpp:[m[K In member function ‘[01m[Kdouble bg_planner::bgPlannerManager::checkTrajCollision(Trajectory<5>&)[m[K’:
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/plan_manage/src/planner_manager.cpp:231:21:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kcur_pt[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+     Eigen::Vector3d [01;35m[Kcur_pt[m[K = traj.getPos(0.0);
+                     [01;35m[K^~~~~~[m[K
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/plan_manage/src/planner_manager.cpp:232:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kradius[m[K’ [[01;35m[K-Wunused-variable[m[K]
+     double [01;35m[Kradius[m[K = 0.0;
+            [01;35m[K^~~~~~[m[K
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/plan_manage/src/planner_manager.cpp:[m[K In member function ‘[01m[Kbool bg_planner::bgPlannerManager::planExploreTrajGcopter(const Vector3d&, Eigen::MatrixXd&, double&)[m[K’:
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/plan_manage/src/planner_manager.cpp:397:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdist[m[K’ [[01;35m[K-Wunused-variable[m[K]
+     double [01;35m[Kdist[m[K = (goal - start_state.col(0)).norm();
+            [01;35m[K^~~~[m[K
+[ 66%] [32m[1mLinking CXX shared library /home/root/kumarRobotics/autonomy_ws/devel/.private/plan_manage/lib/libplan_manage.so[0m
+[100%] Built target plan_manage

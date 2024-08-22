@@ -1,0 +1,36 @@
+[36m--[0m Using CATKIN_DEVEL_PREFIX: /home/root/kumarRobotics/autonomy_ws/devel/.private/kr_tracker_msgs
+[36m--[0m Using CMAKE_PREFIX_PATH: /home/root/kumarRobotics/autonomy_ws/devel;/opt/ros/melodic
+[36m--[0m This workspace overlays: /home/root/kumarRobotics/autonomy_ws/devel;/opt/ros/melodic
+[36m--[0m Using PYTHON_EXECUTABLE: /usr/bin/python2
+[36m--[0m Using Debian Python package layout
+[36m--[0m Using empy: /usr/local/lib/python2.7/dist-packages/em.pyc
+[36m--[0m Using CATKIN_ENABLE_TESTING: ON
+[36m--[0m Call enable_testing()
+[36m--[0m Using CATKIN_TEST_RESULTS_DIR: /home/root/kumarRobotics/autonomy_ws/build/kr_tracker_msgs/test_results
+[36m--[0m Forcing gtest/gmock from source, though one was otherwise available.
+[36m--[0m Found gtest sources under '/usr/src/googletest': gtests will be built
+[36m--[0m Found gmock sources under '/usr/src/googletest': gmock will be built
+[36m--[0m Found PythonInterp: /usr/bin/python2 (found version "2.7.17")
+[36m--[0m Found Threads: TRUE
+[36m--[0m nosetests not found, Python tests can not be run (try installing package 'python-nose')
+[36m--[0m catkin 0.7.29
+[36m--[0m BUILD_SHARED_LIBS is on
+[36m--[0m Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[36m--[0m Generating .msg files for action kr_tracker_msgs/LineTracker /home/root/kumarRobotics/autonomy_ws/src/kr_mav_control/trackers/kr_tracker_msgs/action/LineTracker.action
+Generating for action LineTracker
+[36m--[0m Generating .msg files for action kr_tracker_msgs/VelocityTracker /home/root/kumarRobotics/autonomy_ws/src/kr_mav_control/trackers/kr_tracker_msgs/action/VelocityTracker.action
+Generating for action VelocityTracker
+[36m--[0m Generating .msg files for action kr_tracker_msgs/CircleTracker /home/root/kumarRobotics/autonomy_ws/src/kr_mav_control/trackers/kr_tracker_msgs/action/CircleTracker.action
+Generating for action CircleTracker
+[36m--[0m Generating .msg files for action kr_tracker_msgs/TrajectoryTracker /home/root/kumarRobotics/autonomy_ws/src/kr_mav_control/trackers/kr_tracker_msgs/action/TrajectoryTracker.action
+Generating for action TrajectoryTracker
+[36m--[0m Generating .msg files for action kr_tracker_msgs/LissajousTracker /home/root/kumarRobotics/autonomy_ws/src/kr_mav_control/trackers/kr_tracker_msgs/action/LissajousTracker.action
+Generating for action LissajousTracker
+[36m--[0m Generating .msg files for action kr_tracker_msgs/LissajousAdder /home/root/kumarRobotics/autonomy_ws/src/kr_mav_control/trackers/kr_tracker_msgs/action/LissajousAdder.action
+Generating for action LissajousAdder
+[36m--[0m Generating .msg files for action kr_tracker_msgs/PolyTracker /home/root/kumarRobotics/autonomy_ws/src/kr_mav_control/trackers/kr_tracker_msgs/action/PolyTracker.action
+Generating for action PolyTracker
+[36m--[0m kr_tracker_msgs: 52 messages, 1 services
+[36m--[0m Configuring done
+[36m--[0m Generating done
+[36m--[0m Build files have been written to: /home/root/kumarRobotics/autonomy_ws/build/kr_tracker_msgs

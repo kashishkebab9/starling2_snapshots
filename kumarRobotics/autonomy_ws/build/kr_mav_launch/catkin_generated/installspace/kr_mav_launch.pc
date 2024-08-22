@@ -1,0 +1,8 @@
+prefix=/home/root/kumarRobotics/autonomy_ws/install
+
+Name: kr_mav_launch
+Description: Description of kr_mav_launch
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

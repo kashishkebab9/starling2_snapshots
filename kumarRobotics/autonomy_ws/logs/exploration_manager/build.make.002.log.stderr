@@ -1,0 +1,59 @@
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/exploration_manager/src/bg_exploration_fsm.cpp:[m[K In member function ‘[01m[Kvoid bg_planner::bgExplorationFSM::FSMCallback(const ros::TimerEvent&)[m[K’:
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/exploration_manager/src/bg_exploration_fsm.cpp:270:23:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kpos[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+       Eigen::Vector3d [01;35m[Kpos[m[K = info->traj_.getPos(t_cur);
+                       [01;35m[K^~~[m[K
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/exploration_manager/src/bg_exploration_fsm.cpp:271:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kyaw[m[K’ [[01;35m[K-Wunused-variable[m[K]
+       double [01;35m[Kyaw[m[K = info->yaw_traj_.getPos(t_cur);
+              [01;35m[K^~~[m[K
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/exploration_manager/src/bg_exploration_fsm.cpp:295:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kfc[m[K’ [[01;35m[K-Wunused-variable[m[K]
+       bool [01;35m[Kfc[m[K = expl_manager_->frontier_finder_->isFrontierCovered();
+            [01;35m[K^~[m[K
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/exploration_manager/src/bg_exploration_fsm.cpp:[m[K In member function ‘[01m[Kvoid bg_planner::bgExplorationFSM::publishTraj()[m[K’:
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/exploration_manager/src/bg_exploration_fsm.cpp:470:26:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+       for (uint c = 0; [01;35m[Kc <= order[m[K; c++) {
+                        [01;35m[K~~^~~~~~~~[m[K
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/exploration_manager/src/bg_exploration_fsm.cpp:494:28:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+         for (uint c = 0; [01;35m[Kc <= order[m[K; c++) {
+                          [01;35m[K~~^~~~~~~~[m[K
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/exploration_manager/src/bg_exploration_fsm.cpp:[m[K In member function ‘[01m[Kvoid bg_planner::bgExplorationFSM::visualize()[m[K’:
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/exploration_manager/src/bg_exploration_fsm.cpp:519:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kinfo[m[K’ [[01;35m[K-Wunused-variable[m[K]
+     auto [01;35m[Kinfo[m[K = &planner_manager_->local_data_;
+          [01;35m[K^~~~[m[K
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/exploration_manager/src/bg_exploration_manager.cpp:[m[K In member function ‘[01m[Kint bg_planner::bgExplorationManager::planExploreMotionClassic(const Vector3d&, const Vector3d&, const Vector3d&, const Vector3d&)[m[K’:
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/exploration_manager/src/bg_exploration_manager.cpp:109:10:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kt2[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+     auto [01;35m[Kt2[m[K = t1;
+          [01;35m[K^~[m[K
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/exploration_manager/src/bg_exploration_manager.cpp:[m[K In member function ‘[01m[Kint bg_planner::bgExplorationManager::computeNearestFrontier(const Vector3d&, const std::vector<Eigen::Matrix<double, 3, 1> >&, std::vector<double>&)[m[K’:
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/exploration_manager/src/bg_exploration_manager.cpp:194:23:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+     for (int i = 0; [01;35m[Ki < points.size()[m[K; i++) {
+                     [01;35m[K~~^~~~~~~~~~~~~~~[m[K
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/exploration_manager/src/bg_exploration_manager.cpp:[m[K In member function ‘[01m[Kint bg_planner::bgExplorationManager::planBC(const Vector3d&, const double&, const Vector3d&, const Vector3d&, const Vector3d&, const Vector3d&, const Vector3d&, const Vector3d&)[m[K’:
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/exploration_manager/src/bg_exploration_manager.cpp:361:29:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+           for (int i = 1; [01;35m[Ki < ed_->path_next_goal_.size()[m[K && len2 < radius_far_; ++i) // 7.5m
+                           [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/exploration_manager/src/bg_exploration_manager.cpp:309:12:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Ktime_lb[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+     double [01;35m[Ktime_lb[m[K = diff / ViewNode::yd_; // NOTE: yd_=60 degree in config
+            [01;35m[K^~~~~~~[m[K
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/exploration_manager/src/bg_exploration_manager.cpp:[m[K In member function ‘[01m[Kint bg_planner::bgExplorationManager::planExploreMotionClassic(const Vector3d&, const Vector3d&, const Vector3d&, const Vector3d&)[m[K’:
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/exploration_manager/src/bg_exploration_manager.cpp:109:10:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kt2[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+     auto [01;35m[Kt2[m[K = t1;
+          [01;35m[K^~[m[K
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/exploration_manager/src/bg_exploration_manager.cpp:[m[K In member function ‘[01m[Kint bg_planner::bgExplorationManager::computeNearestFrontier(const Vector3d&, const std::vector<Eigen::Matrix<double, 3, 1> >&, std::vector<double>&)[m[K’:
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/exploration_manager/src/bg_exploration_manager.cpp:194:23:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+     for (int i = 0; [01;35m[Ki < points.size()[m[K; i++) {
+                     [01;35m[K~~^~~~~~~~~~~~~~~[m[K
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/exploration_manager/src/bg_exploration_manager.cpp:[m[K In member function ‘[01m[Kint bg_planner::bgExplorationManager::planBC(const Vector3d&, const double&, const Vector3d&, const Vector3d&, const Vector3d&, const Vector3d&, const Vector3d&, const Vector3d&)[m[K’:
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/exploration_manager/src/bg_exploration_manager.cpp:361:29:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+           for (int i = 1; [01;35m[Ki < ed_->path_next_goal_.size()[m[K && len2 < radius_far_; ++i) // 7.5m
+                           [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/exploration_manager/src/bg_exploration_manager.cpp:309:12:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Ktime_lb[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+     double [01;35m[Ktime_lb[m[K = diff / ViewNode::yd_; // NOTE: yd_=60 degree in config
+            [01;35m[K^~~~~~~[m[K
+[01m[Kc++:[m[K [01;31m[Kinternal compiler error: [m[KKilled (program cc1plus)
+Please submit a full bug report,
+with preprocessed source if appropriate.
+See <file:///usr/share/doc/gcc-7/README.Bugs> for instructions.
+make[2]: *** [CMakeFiles/exploration_fsm.dir/src/bg_exploration_fsm.cpp.o] Error 4
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/exploration_fsm.dir/all] Error 2
+make: *** [all] Error 2

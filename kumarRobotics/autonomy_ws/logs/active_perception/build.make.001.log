@@ -1,0 +1,147 @@
+[35m[1mScanning dependencies of target active_perception[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/active_perception.dir/src/graph_node.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/active_perception.dir/src/frontier_finder.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/active_perception.dir/src/perception_utils.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/active_perception.dir/src/heading_planner.cpp.o[0m
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/active_perception/src/graph_node.cpp:[m[K In static member function ‘[01m[Kstatic double bg_planner::ViewNode::searchRawPath(const Vector3d&, const Vector3d&, std::vector<Eigen::Matrix<double, 3, 1> >&)[m[K’:
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/active_perception/src/graph_node.cpp:73:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksafe[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   bool [01;35m[Ksafe[m[K = true;
+        [01;35m[K^~~~[m[K
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/active_perception/src/perception_utils.cpp:[m[K In member function ‘[01m[Kvoid bg_planner::PerceptionUtils::getFOV(std::vector<Eigen::Matrix<double, 3, 1> >&, std::vector<Eigen::Matrix<double, 3, 1> >&)[m[K’:
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/active_perception/src/perception_utils.cpp:76:21:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+   for (int i = 0; [01;35m[Ki < cam_vertices1_.size()[m[K; ++i) {
+                   [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/active_perception/src/frontier_finder.cpp:[m[K In member function ‘[01m[Kvoid bg_planner::FrontierFinder::expandFrontier(const Vector3i&)[m[K’:
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/active_perception/src/frontier_finder.cpp:209:23:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+   if ([01;35m[Kexpanded.size() > cluster_min_[m[K) {
+       [01;35m[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/active_perception/src/frontier_finder.cpp:177:8:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kt1[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+   auto [01;35m[Kt1[m[K = ros::Time::now();
+        [01;35m[K^~[m[K
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/active_perception/src/frontier_finder.cpp:[m[K In member function ‘[01m[Kvoid bg_planner::FrontierFinder::updateFrontierCostMatrix()[m[K’:
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/active_perception/src/frontier_finder.cpp:325:23:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+     for (int i = 0; [01;35m[Ki < removed_ids_.size()[m[K; ++i)
+                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/active_perception/src/frontier_finder.cpp:340:25:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+       for (int i = 0; [01;35m[Ki < removed_ids_.size()[m[K; ++i) {
+                       [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/active_perception/src/frontier_finder.cpp:[m[K In member function ‘[01m[Kvoid bg_planner::FrontierFinder::getViewpointsInfo(const Vector3d&, const std::vector<int>&, const int&, const double&, std::vector<std::vector<Eigen::Matrix<double, 3, 1> > >&, std::vector<std::vector<double> >&)[m[K’:
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/active_perception/src/frontier_finder.cpp:765:26:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+           if ([01;35m[Kpts.size() >= view_num[m[K || view.visib_num_ <= visib_thresh) break;
+               [01;35m[K~~~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/active_perception/src/frontier_finder.cpp:773:28:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+             if ([01;35m[Kpts.size() >= view_num[m[K || view.visib_num_ <= visib_thresh) break;
+                 [01;35m[K~~~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/active_perception/src/frontier_finder.cpp:[m[K In member function ‘[01m[Kvoid bg_planner::FrontierFinder::findViewpoints(const Vector3d&, const Vector3d&, std::vector<bg_planner::Viewpoint>&)[m[K’:
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/active_perception/src/frontier_finder.cpp:935:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kleft_angle_[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   double [01;35m[Kleft_angle_[m[K, right_angle_, vertical_angle_, ray_length_;
+          [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/active_perception/src/frontier_finder.cpp:[m[K In member function ‘[01m[Kvoid bg_planner::FrontierFinder::sampleViewpoints(bg_planner::Frontier&)[m[K’:
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/active_perception/src/frontier_finder.cpp:1018:25:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+       for (int i = 1; [01;35m[Ki < cells.size()[m[K; ++i) {
+                       [01;35m[K~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/active_perception/src/frontier_finder.cpp:[m[K In member function ‘[01m[Kvoid bg_planner::FrontierFinder::sampleViewpointsClassic(bg_planner::Frontier&)[m[K’:
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/active_perception/src/frontier_finder.cpp:1058:25:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+       for (int i = 1; [01;35m[Ki < cells.size()[m[K; ++i) {
+                       [01;35m[K~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/active_perception/src/frontier_finder.cpp:[m[K In member function ‘[01m[Kvoid bg_planner::FrontierFinder::sampleViewpointsIGNoPred(bg_planner::Frontier&)[m[K’:
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/active_perception/src/frontier_finder.cpp:1105:25:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+       for (int i = 1; [01;35m[Ki < cells.size()[m[K; ++i) {
+                       [01;35m[K~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/active_perception/src/frontier_finder.cpp:[m[K In member function ‘[01m[Kint bg_planner::FrontierFinder::computeYawInfoGain(const Vector3d&, const double&)[m[K’:
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/active_perception/src/frontier_finder.cpp:1260:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klocal_idx[m[K’ [[01;35m[K-Wunused-variable[m[K]
+         int [01;35m[Klocal_idx[m[K;
+             [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/active_perception/src/frontier_finder.cpp:1261:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kflag_unknown[m[K’ [[01;35m[K-Wunused-variable[m[K]
+         bool [01;35m[Kflag_unknown[m[K = false;
+              [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/active_perception/src/frontier_finder.cpp:1246:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kbuf_id[m[K’ [[01;35m[K-Wunused-variable[m[K]
+     int [01;35m[Kbuf_id[m[K = frontier.buf_id_;
+         [01;35m[K^~~~~~[m[K
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/active_perception/src/frontier_finder.cpp:[m[K In member function ‘[01m[Kvoid bg_planner::FrontierFinder::computeInfoGainNoPred(const Vector3d&, const double&, const int&, std::vector<bg_planner::Viewpoint>&)[m[K’:
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/active_perception/src/frontier_finder.cpp:1310:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kin_pred_box[m[K’ [[01;35m[K-Wunused-variable[m[K]
+       bool [01;35m[Kin_pred_box[m[K;
+            [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/active_perception/src/frontier_finder.cpp:1311:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klocal_idx[m[K’ [[01;35m[K-Wunused-variable[m[K]
+       int [01;35m[Klocal_idx[m[K;
+           [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/active_perception/src/frontier_finder.cpp:1312:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kflag_unknown[m[K’ [[01;35m[K-Wunused-variable[m[K]
+       bool [01;35m[Kflag_unknown[m[K = false;
+            [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/active_perception/src/frontier_finder.cpp:1297:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpotential_gain[m[K’ [[01;35m[K-Wunused-variable[m[K]
+     int [01;35m[Kpotential_gain[m[K = 0;
+         [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/active_perception/src/frontier_finder.cpp:[m[K In member function ‘[01m[KEigen::Vector3i bg_planner::FrontierFinder::searchClearVoxel(const Vector3i&)[m[K’:
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/active_perception/src/frontier_finder.cpp:1396:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kadr[m[K’ [[01;35m[K-Wunused-variable[m[K]
+       int [01;35m[Kadr[m[K = toadr(nbr);
+           [01;35m[K^~~[m[K
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/active_perception/src/heading_planner.cpp:[m[K In member function ‘[01m[Kvoid bg_planner::HeadingPlanner::searchPathOfYaw(const std::vector<Eigen::Matrix<double, 3, 1> >&, const std::vector<double>&, const double&, const MatrixXd&, std::vector<double>&)[m[K’:
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/active_perception/src/heading_planner.cpp:179:21:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+   for (int i = 0; [01;35m[Ki < yaws.size()[m[K; ++i) {
+                   [01;35m[K~~^~~~~~~~~~~~~[m[K
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/active_perception/src/heading_planner.cpp:182:35:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+     bool start_end = (i == 0 || [01;35m[Ki == yaws.size() - 1[m[K);
+                                 [01;35m[K~~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/active_perception/src/heading_planner.cpp:181:10:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kt1[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+     auto [01;35m[Kt1[m[K = ros::Time::now();
+          [01;35m[K^~[m[K
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/active_perception/src/heading_planner.cpp:177:19:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kcur_pos[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+   Eigen::Vector3d [01;35m[Kcur_pos[m[K = pts[0];
+                   [01;35m[K^~~~~~~[m[K
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/active_perception/src/heading_planner.cpp:224:8:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kt1[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+   auto [01;35m[Kt1[m[K = ros::Time::now();
+        [01;35m[K^~[m[K
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/active_perception/src/heading_planner.cpp:[m[K In member function ‘[01m[Kdouble bg_planner::HeadingPlanner::calcInformationGain(const Vector3d&, const double&, const MatrixXd&, const int&)[m[K’:
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/active_perception/src/heading_planner.cpp:275:45:[m[K [01;35m[Kwarning: [m[Klogical not is only applied to the left hand side of comparison [[01;35m[K-Wlogical-not-parentheses[m[K]
+         if (!sdf_map_->getOccupancy(pt_idx) [01;35m[K==[m[K SDFMap::UNKNOWN) continue;
+                                             [01;35m[K^~[m[K
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/active_perception/src/heading_planner.cpp:275:13:[m[K [01;36m[Knote: [m[Kadd parentheses around left hand side expression to silence this warning
+         if ([01;36m[K!sdf_map_->getOccupancy(pt_idx)[m[K == SDFMap::UNKNOWN) continue;
+             [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+             [32m[K([m[K                              [32m[K)[m[K
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/active_perception/src/heading_planner.cpp:275:45:[m[K [01;35m[Kwarning: [m[Kcomparison of constant ‘[01m[K-1[m[K’ with boolean expression is always false [[01;35m[K-Wbool-compare[m[K]
+         if ([01;35m[K!sdf_map_->getOccupancy(pt_idx) == SDFMap[m[K::UNKNOWN) continue;
+             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/active_perception/src/heading_planner.cpp:239:8:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kt1[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+   auto [01;35m[Kt1[m[K = ros::Time::now();
+        [01;35m[K^~[m[K
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/active_perception/src/heading_planner.cpp:[m[K In member function ‘[01m[Kdouble bg_planner::HeadingPlanner::calcInfoGain(const Vector3d&, const double&, const int&)[m[K’:
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/active_perception/src/heading_planner.cpp:362:45:[m[K [01;35m[Kwarning: [m[Klogical not is only applied to the left hand side of comparison [[01;35m[K-Wlogical-not-parentheses[m[K]
+         if (!sdf_map_->getOccupancy(pt_idx) [01;35m[K==[m[K SDFMap::UNKNOWN) continue;
+                                             [01;35m[K^~[m[K
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/active_perception/src/heading_planner.cpp:362:13:[m[K [01;36m[Knote: [m[Kadd parentheses around left hand side expression to silence this warning
+         if ([01;36m[K!sdf_map_->getOccupancy(pt_idx)[m[K == SDFMap::UNKNOWN) continue;
+             [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+             [32m[K([m[K                              [32m[K)[m[K
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/active_perception/src/heading_planner.cpp:362:45:[m[K [01;35m[Kwarning: [m[Kcomparison of constant ‘[01m[K-1[m[K’ with boolean expression is always false [[01;35m[K-Wbool-compare[m[K]
+         if ([01;35m[K!sdf_map_->getOccupancy(pt_idx) == SDFMap[m[K::UNKNOWN) continue;
+             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/active_perception/src/heading_planner.cpp:326:8:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kt1[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+   auto [01;35m[Kt1[m[K = ros::Time::now();
+        [01;35m[K^~[m[K
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/active_perception/src/heading_planner.cpp:[m[K In member function ‘[01m[Kvoid bg_planner::HeadingPlanner::calcVisibFrontier(const Vector3d&, const double&, std::unordered_map<int, int>&)[m[K’:
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/active_perception/src/heading_planner.cpp:518:8:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kt1[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+   auto [01;35m[Kt1[m[K = ros::Time::now();
+        [01;35m[K^~[m[K
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/active_perception/src/heading_planner.cpp:[m[K In member function ‘[01m[Kbool bg_planner::HeadingPlanner::insideFoV(const Vector4d&)[m[K’:
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/active_perception/src/heading_planner.cpp:624:9:[m[K [01;35m[Kwarning: [m[K‘[01m[K*((void*)& pc +16)[m[K’ is used uninitialized in this function [[01;35m[K-Wuninitialized[m[K]
+   if ([01;35m[Kpc(2)[m[K < near_ || pc(2) > far_) {
+       [01;35m[K~~^~~[m[K
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/active_perception/src/heading_planner.cpp:628:18:[m[K [01;35m[Kwarning: [m[K‘[01m[Kpc[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+   double txz = [01;35m[Kpc(0)[m[K / pc(2);
+                [01;35m[K~~^~~[m[K
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/active_perception/src/heading_planner.cpp:633:18:[m[K [01;35m[Kwarning: [m[K‘[01m[K*((void*)& pc +8)[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+   double tyz = [01;35m[Kpc(1)[m[K / pc(2);
+                [01;35m[K~~^~~[m[K
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/active_perception/src/frontier_finder.cpp:[m[K In member function ‘[01m[Kvoid bg_planner::FrontierFinder::findViewpoints(const Vector3d&, const Vector3d&, std::vector<bg_planner::Viewpoint>&)[m[K’:
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/active_perception/src/frontier_finder.cpp:946:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvertical_angle_[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+     for (double [01;35m[Kphi_v[m[K = -vertical_angle_; phi_v <= vertical_angle_; phi_v += vertical_angle_ / 3) {
+                 [01;35m[K^~~~~[m[K
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/active_perception/src/frontier_finder.cpp:949:40:[m[K [01;35m[Kwarning: [m[K‘[01m[Kray_length_[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+       end[0] = sample[0] + [01;35m[Kray_length_ * cos(phi_v)[m[K * cos(hc + phi_h);
+                            [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/active_perception/src/frontier_finder.cpp:971:47:[m[K [01;35m[Kwarning: [m[K‘[01m[Kright_angle_[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+     double yaw = [01;35m[Khc - M_PI_2 + M_PI / 9.0 * i + right_angle_[m[K;
+                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[100%] [32m[1mLinking CXX shared library /home/root/kumarRobotics/autonomy_ws/devel/.private/active_perception/lib/libactive_perception.so[0m
+[100%] Built target active_perception

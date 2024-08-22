@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target royale_nodelet[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/royale_nodelet.dir/src/RoyaleInRos.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library /home/root/kumarRobotics/autonomy_ws/devel/.private/royale_in_ros/lib/libroyale_nodelet.so[0m
+[100%] Built target royale_nodelet

@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/root/kumarRobotics/autonomy_ws/src/exploration/third_party/pose_utils/include/pose_utils/pose_utils.h
+iostream
+-
+armadillo
+/home/root/kumarRobotics/autonomy_ws/src/exploration/third_party/pose_utils/include/pose_utils/armadillo
+
+/home/root/kumarRobotics/autonomy_ws/src/exploration/third_party/pose_utils/src/pose_utils.cpp
+pose_utils/pose_utils.h
+/home/root/kumarRobotics/autonomy_ws/src/exploration/third_party/pose_utils/src/pose_utils/pose_utils.h
+

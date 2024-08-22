@@ -1,0 +1,3 @@
+Symlinking /home/root/kumarRobotics/autonomy_ws/devel/lib/pkgconfig/kr_mav_launch.pc
+Symlinking /home/root/kumarRobotics/autonomy_ws/devel/share/kr_mav_launch/cmake/kr_mav_launchConfig.cmake
+Symlinking /home/root/kumarRobotics/autonomy_ws/devel/share/kr_mav_launch/cmake/kr_mav_launchConfig-version.cmake

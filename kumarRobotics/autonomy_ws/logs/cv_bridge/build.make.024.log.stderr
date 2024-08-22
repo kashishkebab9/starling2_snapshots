@@ -1,0 +1,20 @@
+In file included from [01m[K/usr/local/lib/python2.7/dist-packages/numpy/core/include/numpy/ndarrayobject.h:21:0[m[K,
+                 from [01m[K/home/root/kumarRobotics/autonomy_ws/src/vision_opencv/cv_bridge/src/module.hpp:26[m[K,
+                 from [01m[K/home/root/kumarRobotics/autonomy_ws/src/vision_opencv/cv_bridge/src/module_opencv4.cpp:3[m[K:
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/vision_opencv/cv_bridge/src/module.hpp:[m[K In function ‘[01m[Kvoid* do_numpy_import()[m[K’:
+[01m[K/usr/local/lib/python2.7/dist-packages/numpy/core/include/numpy/__multiarray_api.h:1546:144:[m[K [01;35m[Kwarning: [m[Kreturn-statement with no value, in function returning ‘[01m[Kvoid*[m[K’ [[01;35m[K-fpermissive[m[K]
+ #define import_array() {if (_import_array() < 0) {PyErr_Print(); PyErr_SetString(PyExc_ImportError, "numpy.core.multiarray failed to import"); [01;35m[Kr[m[Keturn NUMPY_IMPORT_ARRAY_RETVAL; } }
+                                                                                                                                                [01;35m[K^[m[K
+[01m[K/usr/local/lib/python2.7/dist-packages/numpy/core/include/numpy/__multiarray_api.h:1546:144:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[Kimport_array[m[K’
+ #define import_array() {if (_import_array() < 0) {PyErr_Print(); PyErr_SetString(PyExc_ImportError, "numpy.core.multiarray failed to import"); [01;36m[Kreturn[m[K NUMPY_IMPORT_ARRAY_RETVAL; } }
+                                                                                                                                                [01;36m[K^~~~~~[m[K
+In file included from [01m[K/usr/local/lib/python2.7/dist-packages/numpy/core/include/numpy/ndarrayobject.h:21:0[m[K,
+                 from [01m[K/home/root/kumarRobotics/autonomy_ws/src/vision_opencv/cv_bridge/src/module.hpp:26[m[K,
+                 from [01m[K/home/root/kumarRobotics/autonomy_ws/src/vision_opencv/cv_bridge/src/module.cpp:35[m[K:
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/vision_opencv/cv_bridge/src/module.hpp:[m[K In function ‘[01m[Kvoid* do_numpy_import()[m[K’:
+[01m[K/usr/local/lib/python2.7/dist-packages/numpy/core/include/numpy/__multiarray_api.h:1546:144:[m[K [01;35m[Kwarning: [m[Kreturn-statement with no value, in function returning ‘[01m[Kvoid*[m[K’ [[01;35m[K-fpermissive[m[K]
+ #define import_array() {if (_import_array() < 0) {PyErr_Print(); PyErr_SetString(PyExc_ImportError, "numpy.core.multiarray failed to import"); [01;35m[Kr[m[Keturn NUMPY_IMPORT_ARRAY_RETVAL; } }
+                                                                                                                                                [01;35m[K^[m[K
+[01m[K/usr/local/lib/python2.7/dist-packages/numpy/core/include/numpy/__multiarray_api.h:1546:144:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[Kimport_array[m[K’
+ #define import_array() {if (_import_array() < 0) {PyErr_Print(); PyErr_SetString(PyExc_ImportError, "numpy.core.multiarray failed to import"); [01;36m[Kreturn[m[K NUMPY_IMPORT_ARRAY_RETVAL; } }
+                                                                                                                                                [01;36m[K^~~~~~[m[K

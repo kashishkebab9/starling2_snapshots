@@ -1,0 +1,34 @@
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/vision_opencv/cv_bridge/src/module_opencv2.cpp:151:16:[m[K [01;31m[Kerror: [m[Kcannot declare variable ‘[01m[Kg_numpyAllocator[m[K’ to be of abstract type ‘[01m[KNumpyAllocator[m[K’
+ NumpyAllocator [01;31m[Kg_numpyAllocator[m[K;
+                [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/vision_opencv/cv_bridge/src/module_opencv2.cpp:98:7:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[KNumpyAllocator[m[K’:
+ class [01;36m[KNumpyAllocator[m[K : public cv::MatAllocator
+       [01;36m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/opencv4/opencv2/core.hpp:58:0[m[K,
+                 from [01m[K/usr/include/opencv4/opencv2/core/core.hpp:48[m[K,
+                 from [01m[K/home/root/kumarRobotics/autonomy_ws/src/vision_opencv/cv_bridge/include/cv_bridge/cv_bridge.h:43[m[K,
+                 from [01m[K/home/root/kumarRobotics/autonomy_ws/src/vision_opencv/cv_bridge/src/module.hpp:22[m[K,
+                 from [01m[K/home/root/kumarRobotics/autonomy_ws/src/vision_opencv/cv_bridge/src/module_opencv2.cpp:35[m[K:
+[01m[K/usr/include/opencv4/opencv2/core/mat.hpp:479:23:[m[K [01;36m[Knote: [m[K	virtual cv::UMatData* cv::MatAllocator::allocate(int, const int*, int, void*, size_t*, cv::AccessFlag, cv::UMatUsageFlags) const
+     virtual UMatData* [01;36m[Kallocate[m[K(int dims, const int* sizes, int type,
+                       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/opencv4/opencv2/core/mat.hpp:481:18:[m[K [01;36m[Knote: [m[K	virtual bool cv::MatAllocator::allocate(cv::UMatData*, cv::AccessFlag, cv::UMatUsageFlags) const
+     virtual bool [01;36m[Kallocate[m[K(UMatData* data, AccessFlag accessflags, UMatUsageFlags usageFlags) const = 0;
+                  [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/opencv4/opencv2/core/mat.hpp:482:18:[m[K [01;36m[Knote: [m[K	virtual void cv::MatAllocator::deallocate(cv::UMatData*) const
+     virtual void [01;36m[Kdeallocate[m[K(UMatData* data) const = 0;
+                  [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/vision_opencv/cv_bridge/src/module_opencv2.cpp:[m[K In function ‘[01m[Kint convert_to_CvMat2(const PyObject*, cv::Mat&)[m[K’:
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/vision_opencv/cv_bridge/src/module_opencv2.cpp:233:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass cv::Mat[m[K’ has no member named ‘[01m[Krefcount[m[K’
+         m.[01;31m[Krefcount[m[K = refcountFromPyObject(o);
+           [01;31m[K^~~~~~~~[m[K
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/vision_opencv/cv_bridge/src/module_opencv2.cpp:[m[K In function ‘[01m[KPyObject* pyopencv_from(const cv::Mat&)[m[K’:
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/vision_opencv/cv_bridge/src/module_opencv2.cpp:254:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass cv::Mat[m[K’ has no member named ‘[01m[Krefcount[m[K’
+     if(!p->[01;31m[Krefcount[m[K || p->allocator != &g_numpyAllocator)
+            [01;31m[K^~~~~~~~[m[K
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/vision_opencv/cv_bridge/src/module_opencv2.cpp:261:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass cv::Mat[m[K’ has no member named ‘[01m[Krefcount[m[K’
+     return pyObjectFromRefcount(p->[01;31m[Krefcount[m[K);
+                                    [01;31m[K^~~~~~~~[m[K
+make[2]: *** [src/CMakeFiles/cv_bridge_boost.dir/module_opencv2.cpp.o] Error 1
+make[1]: *** [src/CMakeFiles/cv_bridge_boost.dir/all] Error 2
+make: *** [all] Error 2

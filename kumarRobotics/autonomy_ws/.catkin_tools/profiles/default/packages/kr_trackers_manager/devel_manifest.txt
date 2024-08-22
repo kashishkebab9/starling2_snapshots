@@ -1,0 +1,6 @@
+kr_mav_control/trackers/kr_trackers_manager
+/home/root/kumarRobotics/autonomy_ws/devel/.private/kr_trackers_manager/cmake.lock /home/root/kumarRobotics/autonomy_ws/devel/./cmake.lock
+/home/root/kumarRobotics/autonomy_ws/devel/.private/kr_trackers_manager/lib/libkr_trackers_manager.so /home/root/kumarRobotics/autonomy_ws/devel/lib/libkr_trackers_manager.so
+/home/root/kumarRobotics/autonomy_ws/devel/.private/kr_trackers_manager/lib/pkgconfig/kr_trackers_manager.pc /home/root/kumarRobotics/autonomy_ws/devel/lib/pkgconfig/kr_trackers_manager.pc
+/home/root/kumarRobotics/autonomy_ws/devel/.private/kr_trackers_manager/share/kr_trackers_manager/cmake/kr_trackers_managerConfig.cmake /home/root/kumarRobotics/autonomy_ws/devel/share/kr_trackers_manager/cmake/kr_trackers_managerConfig.cmake
+/home/root/kumarRobotics/autonomy_ws/devel/.private/kr_trackers_manager/share/kr_trackers_manager/cmake/kr_trackers_managerConfig-version.cmake /home/root/kumarRobotics/autonomy_ws/devel/share/kr_trackers_manager/cmake/kr_trackers_managerConfig-version.cmake

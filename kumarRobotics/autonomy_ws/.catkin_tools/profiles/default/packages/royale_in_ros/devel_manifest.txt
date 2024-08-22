@@ -1,0 +1,6 @@
+sampleROS
+/home/root/kumarRobotics/autonomy_ws/devel/.private/royale_in_ros/cmake.lock /home/root/kumarRobotics/autonomy_ws/devel/./cmake.lock
+/home/root/kumarRobotics/autonomy_ws/devel/.private/royale_in_ros/lib/libroyale_nodelet.so /home/root/kumarRobotics/autonomy_ws/devel/lib/libroyale_nodelet.so
+/home/root/kumarRobotics/autonomy_ws/devel/.private/royale_in_ros/lib/pkgconfig/royale_in_ros.pc /home/root/kumarRobotics/autonomy_ws/devel/lib/pkgconfig/royale_in_ros.pc
+/home/root/kumarRobotics/autonomy_ws/devel/.private/royale_in_ros/share/royale_in_ros/cmake/royale_in_rosConfig.cmake /home/root/kumarRobotics/autonomy_ws/devel/share/royale_in_ros/cmake/royale_in_rosConfig.cmake
+/home/root/kumarRobotics/autonomy_ws/devel/.private/royale_in_ros/share/royale_in_ros/cmake/royale_in_rosConfig-version.cmake /home/root/kumarRobotics/autonomy_ws/devel/share/royale_in_ros/cmake/royale_in_rosConfig-version.cmake

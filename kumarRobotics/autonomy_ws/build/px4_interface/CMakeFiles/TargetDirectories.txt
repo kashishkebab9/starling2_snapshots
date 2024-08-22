@@ -1,0 +1,13 @@
+/home/root/kumarRobotics/autonomy_ws/build/px4_interface/CMakeFiles/install/strip.dir
+/home/root/kumarRobotics/autonomy_ws/build/px4_interface/CMakeFiles/install.dir
+/home/root/kumarRobotics/autonomy_ws/build/px4_interface/CMakeFiles/list_install_components.dir
+/home/root/kumarRobotics/autonomy_ws/build/px4_interface/CMakeFiles/install/local.dir
+/home/root/kumarRobotics/autonomy_ws/build/px4_interface/CMakeFiles/test.dir
+/home/root/kumarRobotics/autonomy_ws/build/px4_interface/CMakeFiles/tests.dir
+/home/root/kumarRobotics/autonomy_ws/build/px4_interface/CMakeFiles/edit_cache.dir
+/home/root/kumarRobotics/autonomy_ws/build/px4_interface/CMakeFiles/run_tests.dir
+/home/root/kumarRobotics/autonomy_ws/build/px4_interface/CMakeFiles/rebuild_cache.dir
+/home/root/kumarRobotics/autonomy_ws/build/px4_interface/CMakeFiles/download_extra_data.dir
+/home/root/kumarRobotics/autonomy_ws/build/px4_interface/CMakeFiles/_catkin_empty_exported_target.dir
+/home/root/kumarRobotics/autonomy_ws/build/px4_interface/CMakeFiles/clean_test_results.dir
+/home/root/kumarRobotics/autonomy_ws/build/px4_interface/CMakeFiles/doxygen.dir

@@ -1,0 +1,4 @@
+Symlinking /home/root/kumarRobotics/autonomy_ws/devel/lib/libactive_perception.so
+Symlinking /home/root/kumarRobotics/autonomy_ws/devel/lib/pkgconfig/active_perception.pc
+Symlinking /home/root/kumarRobotics/autonomy_ws/devel/share/active_perception/cmake/active_perceptionConfig.cmake
+Symlinking /home/root/kumarRobotics/autonomy_ws/devel/share/active_perception/cmake/active_perceptionConfig-version.cmake

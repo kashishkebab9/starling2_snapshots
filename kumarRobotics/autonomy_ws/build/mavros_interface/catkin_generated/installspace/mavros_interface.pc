@@ -1,0 +1,8 @@
+prefix=/home/root/kumarRobotics/autonomy_ws/install
+
+Name: mavros_interface
+Description: Description of mavros_interface
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: roscpp nav_msgs geometry_msgs kr_mav_msgs mavros_msgs nodelet

@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/root/kumarRobotics/autonomy_ws/devel/.private/royale_in_ros/setup.sh

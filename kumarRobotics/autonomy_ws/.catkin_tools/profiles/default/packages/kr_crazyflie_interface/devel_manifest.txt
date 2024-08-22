@@ -1,0 +1,6 @@
+kr_mav_control/interfaces/kr_crazyflie_interface
+/home/root/kumarRobotics/autonomy_ws/devel/.private/kr_crazyflie_interface/cmake.lock /home/root/kumarRobotics/autonomy_ws/devel/./cmake.lock
+/home/root/kumarRobotics/autonomy_ws/devel/.private/kr_crazyflie_interface/lib/libkr_crazyflie_interface.so /home/root/kumarRobotics/autonomy_ws/devel/lib/libkr_crazyflie_interface.so
+/home/root/kumarRobotics/autonomy_ws/devel/.private/kr_crazyflie_interface/lib/pkgconfig/kr_crazyflie_interface.pc /home/root/kumarRobotics/autonomy_ws/devel/lib/pkgconfig/kr_crazyflie_interface.pc
+/home/root/kumarRobotics/autonomy_ws/devel/.private/kr_crazyflie_interface/share/kr_crazyflie_interface/cmake/kr_crazyflie_interfaceConfig.cmake /home/root/kumarRobotics/autonomy_ws/devel/share/kr_crazyflie_interface/cmake/kr_crazyflie_interfaceConfig.cmake
+/home/root/kumarRobotics/autonomy_ws/devel/.private/kr_crazyflie_interface/share/kr_crazyflie_interface/cmake/kr_crazyflie_interfaceConfig-version.cmake /home/root/kumarRobotics/autonomy_ws/devel/share/kr_crazyflie_interface/cmake/kr_crazyflie_interfaceConfig-version.cmake

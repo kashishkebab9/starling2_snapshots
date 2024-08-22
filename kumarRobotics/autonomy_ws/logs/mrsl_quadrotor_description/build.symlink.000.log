@@ -1,0 +1,3 @@
+Symlinking /home/root/kumarRobotics/autonomy_ws/devel/lib/pkgconfig/mrsl_quadrotor_description.pc
+Symlinking /home/root/kumarRobotics/autonomy_ws/devel/share/mrsl_quadrotor_description/cmake/mrsl_quadrotor_descriptionConfig.cmake
+Symlinking /home/root/kumarRobotics/autonomy_ws/devel/share/mrsl_quadrotor_description/cmake/mrsl_quadrotor_descriptionConfig-version.cmake

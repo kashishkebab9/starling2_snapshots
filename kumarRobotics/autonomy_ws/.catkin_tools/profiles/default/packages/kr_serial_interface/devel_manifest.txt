@@ -1,0 +1,6 @@
+kr_mav_control/interfaces/kr_serial_interface
+/home/root/kumarRobotics/autonomy_ws/devel/.private/kr_serial_interface/cmake.lock /home/root/kumarRobotics/autonomy_ws/devel/./cmake.lock
+/home/root/kumarRobotics/autonomy_ws/devel/.private/kr_serial_interface/lib/libkr_serial_interface.so /home/root/kumarRobotics/autonomy_ws/devel/lib/libkr_serial_interface.so
+/home/root/kumarRobotics/autonomy_ws/devel/.private/kr_serial_interface/lib/pkgconfig/kr_serial_interface.pc /home/root/kumarRobotics/autonomy_ws/devel/lib/pkgconfig/kr_serial_interface.pc
+/home/root/kumarRobotics/autonomy_ws/devel/.private/kr_serial_interface/share/kr_serial_interface/cmake/kr_serial_interfaceConfig.cmake /home/root/kumarRobotics/autonomy_ws/devel/share/kr_serial_interface/cmake/kr_serial_interfaceConfig.cmake
+/home/root/kumarRobotics/autonomy_ws/devel/.private/kr_serial_interface/share/kr_serial_interface/cmake/kr_serial_interfaceConfig-version.cmake /home/root/kumarRobotics/autonomy_ws/devel/share/kr_serial_interface/cmake/kr_serial_interfaceConfig-version.cmake

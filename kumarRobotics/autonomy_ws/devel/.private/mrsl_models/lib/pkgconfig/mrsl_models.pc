@@ -1,0 +1,8 @@
+prefix=/home/root/kumarRobotics/autonomy_ws/devel/.private/mrsl_models
+
+Name: mrsl_models
+Description: Description of mrsl_models
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/root/kumarRobotics/autonomy_ws/devel/.private/px4_interface/setup.sh

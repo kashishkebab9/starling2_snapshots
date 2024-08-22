@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+ImportError: No module named numpy
+[31m[1mCMake Error[0m at /home/root/kumarRobotics/autonomy_ws/src/vision_opencv/cv_bridge/src/CMakeLists.txt:25 (message):
+  Could not determine the NumPy include directory, verify that NumPy was
+  installed correctly.
+
+

@@ -1,0 +1,6 @@
+# CMake generated Testfile for 
+# Source directory: /home/root/kumarRobotics/autonomy_ws/src/kr_falcon250_interface/system_launch
+# Build directory: /home/root/kumarRobotics/autonomy_ws/build/system_launch
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.

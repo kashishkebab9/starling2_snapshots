@@ -1,0 +1,17 @@
+[31m[1mCMake Error[0m at /home/root/kumarRobotics/autonomy_ws/src/GCOPTER/gcopter/CMakeLists.txt:10 (find_package):
+  By not providing "Findompl.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "ompl", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by "ompl" with any of
+  the following names:
+
+    omplConfig.cmake
+    ompl-config.cmake
+
+  Add the installation prefix of "ompl" to CMAKE_PREFIX_PATH or set
+  "ompl_DIR" to a directory containing one of the above files.  If "ompl"
+  provides a separate development package or SDK, be sure it has been
+  installed.
+
+

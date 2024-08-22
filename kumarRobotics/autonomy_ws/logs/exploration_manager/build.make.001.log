@@ -1,0 +1,87 @@
+[  0%] Built target decomp_ros_msgs_generate_messages_lisp
+[  0%] Built target actionlib_generate_messages_py
+[  0%] Built target actionlib_generate_messages_lisp
+[  0%] Built target actionlib_generate_messages_eus
+[  0%] Built target decomp_ros_msgs_generate_messages_eus
+[  0%] Built target nav_msgs_generate_messages_cpp
+[  0%] Built target decomp_ros_msgs_generate_messages_py
+[ 14%] [32mBuilding CXX object CMakeFiles/exploration_fsm.dir/src/bg_exploration_fsm.cpp.o[0m
+[ 14%] Built target sensor_msgs_generate_messages_py
+[ 28%] [32mBuilding CXX object CMakeFiles/exploration_manager.dir/src/bg_exploration_manager.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/exploration_fsm.dir/src/bg_exploration_manager.cpp.o[0m
+[ 42%] Built target sensor_msgs_generate_messages_cpp
+[ 42%] Built target actionlib_msgs_generate_messages_lisp
+[ 42%] Built target actionlib_msgs_generate_messages_py
+[ 42%] Built target actionlib_msgs_generate_messages_eus
+[ 42%] Built target sensor_msgs_generate_messages_eus
+[ 42%] Built target actionlib_msgs_generate_messages_cpp
+[ 42%] Built target nav_msgs_generate_messages_py
+[ 42%] Built target std_msgs_generate_messages_eus
+[ 42%] Built target rosgraph_msgs_generate_messages_py
+[ 42%] Built target rosgraph_msgs_generate_messages_nodejs
+[ 42%] Built target rosgraph_msgs_generate_messages_lisp
+[ 42%] Built target rosgraph_msgs_generate_messages_eus
+[ 42%] Built target kr_tracker_msgs_generate_messages_cpp
+[ 42%] Built target actionlib_generate_messages_nodejs
+[ 42%] Built target decomp_ros_msgs_generate_messages_cpp
+[ 42%] Built target std_msgs_generate_messages_py
+[ 42%] Built target roscpp_generate_messages_py
+[ 42%] Built target rosgraph_msgs_generate_messages_cpp
+[ 42%] Built target geometry_msgs_generate_messages_eus
+[ 42%] Built target roscpp_generate_messages_lisp
+[ 42%] Built target roscpp_generate_messages_nodejs
+[ 42%] Built target actionlib_generate_messages_cpp
+[ 42%] Built target roscpp_generate_messages_eus
+[ 42%] Built target kr_tracker_msgs_generate_messages_eus
+[ 42%] Built target sensor_msgs_generate_messages_nodejs
+[ 42%] Built target actionlib_msgs_generate_messages_nodejs
+[ 42%] Built target roscpp_generate_messages_cpp
+[ 42%] Built target std_msgs_generate_messages_cpp
+[ 42%] Built target nav_msgs_generate_messages_nodejs
+[ 42%] Built target geometry_msgs_generate_messages_nodejs
+[ 42%] Built target kr_mav_msgs_generate_messages_py
+[ 42%] Built target std_msgs_generate_messages_lisp
+[ 42%] Built target sensor_msgs_generate_messages_lisp
+[ 42%] Built target std_msgs_generate_messages_nodejs
+[ 42%] Built target nav_msgs_generate_messages_eus
+[ 42%] Built target kr_tracker_msgs_generate_messages_py
+[ 42%] Built target geometry_msgs_generate_messages_cpp
+[ 42%] Built target geometry_msgs_generate_messages_lisp
+[ 42%] Built target kr_tracker_msgs_generate_messages_lisp
+[ 42%] Built target geometry_msgs_generate_messages_py
+[ 42%] Built target nav_msgs_generate_messages_lisp
+[ 42%] Built target kr_mav_msgs_generate_messages_eus
+[ 42%] Built target kr_mav_msgs_generate_messages_cpp
+[ 42%] Built target kr_mav_msgs_generate_messages_lisp
+[ 42%] Built target kr_mav_msgs_generate_messages_nodejs
+[ 42%] Built target kr_tracker_msgs_generate_messages_nodejs
+[ 42%] Built target decomp_ros_msgs_generate_messages_nodejs
+In file included from [01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/exploration_manager/src/bg_exploration_manager.cpp:14:0[m[K:
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/exploration_manager/include/exploration_manager/expl_data.h:7:10:[m[K [01;31m[Kfatal error: [m[Kkr_tracker_msgs/PolyTrackerAction.h: No such file or directory
+ #include [01;31m[K"kr_tracker_msgs/PolyTrackerAction.h"[m[K
+          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+CMakeFiles/exploration_fsm.dir/build.make:86: recipe for target 'CMakeFiles/exploration_fsm.dir/src/bg_exploration_manager.cpp.o' failed
+make[2]: *** [CMakeFiles/exploration_fsm.dir/src/bg_exploration_manager.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/exploration_manager/src/bg_exploration_manager.cpp:14:0[m[K:
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/exploration_manager/include/exploration_manager/expl_data.h:7:10:[m[K [01;31m[Kfatal error: [m[Kkr_tracker_msgs/PolyTrackerAction.h: No such file or directory
+ #include [01;31m[K"kr_tracker_msgs/PolyTrackerAction.h"[m[K
+          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+CMakeFiles/exploration_manager.dir/build.make:62: recipe for target 'CMakeFiles/exploration_manager.dir/src/bg_exploration_manager.cpp.o' failed
+make[2]: *** [CMakeFiles/exploration_manager.dir/src/bg_exploration_manager.cpp.o] Error 1
+CMakeFiles/Makefile2:104: recipe for target 'CMakeFiles/exploration_manager.dir/all' failed
+make[1]: *** [CMakeFiles/exploration_manager.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/exploration_manager/src/bg_exploration_fsm.cpp:6:0[m[K:
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/exploration_manager/include/exploration_manager/expl_data.h:7:10:[m[K [01;31m[Kfatal error: [m[Kkr_tracker_msgs/PolyTrackerAction.h: No such file or directory
+ #include [01;31m[K"kr_tracker_msgs/PolyTrackerAction.h"[m[K
+          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+CMakeFiles/exploration_fsm.dir/build.make:62: recipe for target 'CMakeFiles/exploration_fsm.dir/src/bg_exploration_fsm.cpp.o' failed
+make[2]: *** [CMakeFiles/exploration_fsm.dir/src/bg_exploration_fsm.cpp.o] Error 1
+CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/exploration_fsm.dir/all' failed
+make[1]: *** [CMakeFiles/exploration_fsm.dir/all] Error 2
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

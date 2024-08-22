@@ -1,0 +1,8 @@
+prefix=/home/root/kumarRobotics/autonomy_ws/devel/.private/royale_in_ros
+
+Name: royale_in_ros
+Description: Description of royale_in_ros
+Version: 0.1.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

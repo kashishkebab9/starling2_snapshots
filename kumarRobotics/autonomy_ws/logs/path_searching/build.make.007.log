@@ -1,0 +1,2 @@
+[ 50%] [32m[1mLinking CXX shared library /home/root/kumarRobotics/autonomy_ws/devel/.private/path_searching/lib/libpath_searching.so[0m
+[100%] Built target path_searching

@@ -1,0 +1,32 @@
+[35m[1mScanning dependencies of target publish_rotate[0m
+[35m[1mScanning dependencies of target publish_horizon[0m
+[  6%] [32mBuilding CXX object CMakeFiles/publish_rotate.dir/src/publish_rotate.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/publish_horizon.dir/src/publish_horizon.cpp.o[0m
+[35m[1mScanning dependencies of target change_odom[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/change_odom.dir/src/change_odom.cpp.o[0m
+[35m[1mScanning dependencies of target publish_tf[0m
+[35m[1mScanning dependencies of target change_frame[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/publish_tf.dir/src/publish_tf.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/change_frame.dir/src/change_frame.cpp.o[0m
+[35m[1mScanning dependencies of target tf_pub[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/tf_pub.dir/src/tf_pub.cpp.o[0m
+[35m[1mScanning dependencies of target change_header[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/change_header.dir/src/change_header.cpp.o[0m
+[35m[1mScanning dependencies of target msg_to_tf[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/msg_to_tf.dir/src/msg_to_tf.cpp.o[0m
+[ 56%] [32m[1mLinking CXX executable /home/root/kumarRobotics/autonomy_ws/devel/.private/mrsl_quadrotor_utils/lib/mrsl_quadrotor_utils/tf_pub[0m
+[ 56%] Built target tf_pub
+[ 62%] [32m[1mLinking CXX executable /home/root/kumarRobotics/autonomy_ws/devel/.private/mrsl_quadrotor_utils/lib/mrsl_quadrotor_utils/change_header[0m
+[ 68%] [32m[1mLinking CXX executable /home/root/kumarRobotics/autonomy_ws/devel/.private/mrsl_quadrotor_utils/lib/mrsl_quadrotor_utils/change_odom[0m
+[ 68%] Built target change_header
+[ 68%] Built target change_odom
+[ 75%] [32m[1mLinking CXX executable /home/root/kumarRobotics/autonomy_ws/devel/.private/mrsl_quadrotor_utils/lib/mrsl_quadrotor_utils/msg_to_tf[0m
+[ 75%] Built target msg_to_tf
+[ 81%] [32m[1mLinking CXX executable /home/root/kumarRobotics/autonomy_ws/devel/.private/mrsl_quadrotor_utils/lib/mrsl_quadrotor_utils/publish_rotate[0m
+[ 81%] Built target publish_rotate
+[ 87%] [32m[1mLinking CXX executable /home/root/kumarRobotics/autonomy_ws/devel/.private/mrsl_quadrotor_utils/lib/mrsl_quadrotor_utils/publish_tf[0m
+[ 87%] Built target publish_tf
+[ 93%] [32m[1mLinking CXX executable /home/root/kumarRobotics/autonomy_ws/devel/.private/mrsl_quadrotor_utils/lib/mrsl_quadrotor_utils/publish_horizon[0m
+[100%] [32m[1mLinking CXX executable /home/root/kumarRobotics/autonomy_ws/devel/.private/mrsl_quadrotor_utils/lib/mrsl_quadrotor_utils/change_frame[0m
+[100%] Built target publish_horizon
+[100%] Built target change_frame

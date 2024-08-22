@@ -1,0 +1,17 @@
+[31m[1mCMake Error[0m at /home/root/kumarRobotics/autonomy_ws/src/rviz/CMakeLists.txt:26 (find_package):
+  By not providing "Findurdfdom_headers.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "urdfdom_headers", but CMake did not find one.
+
+  Could not find a package configuration file provided by "urdfdom_headers"
+  with any of the following names:
+
+    urdfdom_headersConfig.cmake
+    urdfdom_headers-config.cmake
+
+  Add the installation prefix of "urdfdom_headers" to CMAKE_PREFIX_PATH or
+  set "urdfdom_headers_DIR" to a directory containing one of the above files.
+  If "urdfdom_headers" provides a separate development package or SDK, be
+  sure it has been installed.
+
+

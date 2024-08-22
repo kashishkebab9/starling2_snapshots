@@ -1,0 +1,11 @@
+No display, will not configure tests for rviz/stl_loader
+[33m[1mCMake Warning[0m at /opt/ros/melodic/share/python_qt_binding/cmake/sip_helper.cmake:28 (message):
+  SIP binding generator NOT available.
+[36mCall Stack (most recent call first):[0m
+  src/python_bindings/sip/CMakeLists.txt:42 (include)
+
+
+[31m[1mCMake Error[0m at /home/root/kumarRobotics/autonomy_ws/src/rviz/src/python_bindings/CMakeLists.txt:9 (message):
+  No Python binding generator found.
+
+

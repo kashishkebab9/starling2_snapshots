@@ -1,0 +1,20 @@
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/third_party/traj_utils/src/planning_visualization.cpp:[m[K In member function ‘[01m[Kvoid bg_planner::PlanningVisualization::drawLines(const std::vector<Eigen::Matrix<double, 3, 1> >&, const double&, const Vector4d&, const string&, const int&, const int&)[m[K’:
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/third_party/traj_utils/src/planning_visualization.cpp:318:21:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+   for (int i = 0; [01;35m[Ki < list.size() - 1[m[K; ++i) {
+                   [01;35m[K~~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/third_party/traj_utils/src/planning_visualization.cpp:[m[K In member function ‘[01m[Kvoid bg_planner::PlanningVisualization::drawPrediction(bg_planner::ObjPrediction, double, const Vector4d&, int)[m[K’:
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/third_party/traj_utils/src/planning_visualization.cpp:498:21:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+   for (int i = 0; [01;35m[Ki < pred->size()[m[K; i++) {
+                   [01;35m[K~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/third_party/traj_utils/src/planning_visualization.cpp:[m[K In member function ‘[01m[Kvoid bg_planner::PlanningVisualization::drawFrontier(const std::vector<std::vector<Eigen::Matrix<double, 3, 1> > >&)[m[K’:
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/third_party/traj_utils/src/planning_visualization.cpp:511:21:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+   for (int i = 0; [01;35m[Ki < frontiers.size()[m[K; ++i) {
+                   [01;35m[K~~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/third_party/traj_utils/src/process_msg.cpp:[m[K In function ‘[01m[Kvoid cloudCallback(const PointCloud2ConstPtr&)[m[K’:
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/third_party/traj_utils/src/process_msg.cpp:39:21:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+   for (int i = 0; [01;35m[Ki < pts.points.size()[m[K; ++i) {
+                   [01;35m[K~~^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/third_party/traj_utils/src/planning_visualization.cpp:[m[K In member function ‘[01m[KEigen::Vector4d bg_planner::PlanningVisualization::getColor(const double&, double)[m[K’:
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/third_party/traj_utils/src/planning_visualization.cpp:560:31:[m[K [01;35m[Kwarning: [m[K‘[01m[Klambda[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+   Eigen::Vector4d fcolor = [01;35m[K(1 - lambda)[m[K * color1 + lambda * color2;
+                            [01;35m[K~~~^~~~~~~~~[m[K

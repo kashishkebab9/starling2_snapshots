@@ -1,0 +1,46 @@
+In file included from [01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/third_party/DecompROS/decomp_ros_utils/src/polyhedron_array_display.cpp:1:0[m[K:
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/third_party/DecompROS/decomp_ros_utils/src/polyhedron_array_display.h:2:10:[m[K [01;31m[Kfatal error: [m[Krviz/message_filter_display.h: No such file or directory
+ #include [01;31m[K<rviz/message_filter_display.h>[m[K
+          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/decomp_rviz_plugins.dir/src/polyhedron_array_display.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/third_party/DecompROS/decomp_ros_utils/src/vector_visual.cpp:1:0[m[K:
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/third_party/DecompROS/decomp_ros_utils/src/vector_visual.h:8:10:[m[K [01;31m[Kfatal error: [m[Krviz/ogre_helpers/arrow.h: No such file or directory
+ #include [01;31m[K<rviz/ogre_helpers/arrow.h>[m[K
+          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+In file included from [01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/third_party/DecompROS/decomp_ros_utils/src/bound_visual.cpp:1:0[m[K:
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/third_party/DecompROS/decomp_ros_utils/src/bound_visual.h:10:10:[m[K [01;31m[Kfatal error: [m[Krviz/ogre_helpers/billboard_line.h: No such file or directory
+ #include [01;31m[K<rviz/ogre_helpers/billboard_line.h>[m[K
+          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/decomp_rviz_plugins.dir/src/vector_visual.cpp.o] Error 1
+make[2]: *** [CMakeFiles/decomp_rviz_plugins.dir/src/bound_visual.cpp.o] Error 1
+In file included from [01m[K/home/root/kumarRobotics/autonomy_ws/build/decomp_ros_utils/decomp_rviz_plugins_autogen/UVLADIE3JM/moc_ellipsoid_array_display.cpp:9:0[m[K,
+                 from [01m[K/home/root/kumarRobotics/autonomy_ws/build/decomp_ros_utils/decomp_rviz_plugins_autogen/mocs_compilation.cpp:2[m[K:
+[01m[K/home/root/kumarRobotics/autonomy_ws/build/decomp_ros_utils/decomp_rviz_plugins_autogen/UVLADIE3JM/../../../../src/exploration/third_party/DecompROS/decomp_ros_utils/src/ellipsoid_array_display.h:3:10:[m[K [01;31m[Kfatal error: [m[Krviz/visualization_manager.h: No such file or directory
+ #include [01;31m[K<rviz/visualization_manager.h>[m[K
+          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/decomp_rviz_plugins.dir/decomp_rviz_plugins_autogen/mocs_compilation.cpp.o] Error 1
+In file included from [01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/third_party/DecompROS/decomp_ros_utils/src/mesh_visual.cpp:1:0[m[K:
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/third_party/DecompROS/decomp_ros_utils/src/mesh_visual.h:11:10:[m[K [01;31m[Kfatal error: [m[Krviz/ogre_helpers/mesh_shape.h: No such file or directory
+ #include [01;31m[K<rviz/ogre_helpers/mesh_shape.h>[m[K
+          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/decomp_rviz_plugins.dir/src/mesh_visual.cpp.o] Error 1
+In file included from [01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/third_party/DecompROS/decomp_ros_utils/src/ellipsoid_array_visual.cpp:1:0[m[K:
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/third_party/DecompROS/decomp_ros_utils/src/ellipsoid_array_visual.h:12:10:[m[K [01;31m[Kfatal error: [m[Krviz/ogre_helpers/shape.h: No such file or directory
+ #include [01;31m[K<rviz/ogre_helpers/shape.h>[m[K
+          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/decomp_rviz_plugins.dir/src/ellipsoid_array_visual.cpp.o] Error 1
+In file included from [01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/third_party/DecompROS/decomp_ros_utils/src/ellipsoid_array_display.cpp:2:0[m[K:
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/third_party/DecompROS/decomp_ros_utils/src/ellipsoid_array_display.h:3:10:[m[K [01;31m[Kfatal error: [m[Krviz/visualization_manager.h: No such file or directory
+ #include [01;31m[K<rviz/visualization_manager.h>[m[K
+          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/decomp_rviz_plugins.dir/src/ellipsoid_array_display.cpp.o] Error 1
+make[1]: *** [CMakeFiles/decomp_rviz_plugins.dir/all] Error 2
+make: *** [all] Error 2

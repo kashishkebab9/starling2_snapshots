@@ -1,0 +1,8 @@
+prefix=/home/root/kumarRobotics/autonomy_ws/install
+
+Name: quadrotor_ukf
+Description: Description of quadrotor_ukf
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: roscpp sensor_msgs geometry_msgs tf2_ros

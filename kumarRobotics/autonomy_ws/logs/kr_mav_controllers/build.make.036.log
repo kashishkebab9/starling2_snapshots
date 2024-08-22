@@ -1,0 +1,81 @@
+[  0%] Built target tf2_msgs_generate_messages_nodejs
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[  0%] Built target nodelet_generate_messages_lisp
+[  0%] Built target kr_mav_msgs_generate_messages_lisp
+[  0%] Built target kr_mav_msgs_generate_messages_eus
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target kr_mav_msgs_generate_messages_cpp
+[  0%] Built target nav_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target nav_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target kr_mav_msgs_generate_messages_py
+[  0%] Built target nav_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target dynamic_reconfigure_generate_messages_lisp
+[  0%] Built target dynamic_reconfigure_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target dynamic_reconfigure_generate_messages_py
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target dynamic_reconfigure_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target bond_generate_messages_lisp
+[  0%] Built target nodelet_generate_messages_cpp
+[  0%] Built target bond_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target actionlib_generate_messages_lisp
+[  0%] Built target nodelet_generate_messages_eus
+[  0%] Built target nodelet_generate_messages_nodejs
+[  0%] Built target bond_generate_messages_cpp
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target tf_generate_messages_eus
+[  0%] Built target bond_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target bond_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target actionlib_generate_messages_cpp
+[ 20%] [34m[1mGenerating dynamic reconfigure files from cfg/SO3.cfg: /home/root/kumarRobotics/autonomy_ws/devel/.private/kr_mav_controllers/include/kr_mav_controllers/SO3Config.h /home/root/kumarRobotics/autonomy_ws/devel/.private/kr_mav_controllers/lib/python2.7/dist-packages/kr_mav_controllers/cfg/SO3Config.py[0m
+Generating reconfiguration files for SO3 in kr_mav_controllers
+Wrote header file in /home/root/kumarRobotics/autonomy_ws/devel/.private/kr_mav_controllers/include/kr_mav_controllers/SO3Config.h
+[ 20%] Built target kr_mav_controllers_gencfg
+[ 20%] Built target roscpp_generate_messages_py
+[ 20%] Built target rosgraph_msgs_generate_messages_eus
+[ 20%] Built target rosgraph_msgs_generate_messages_lisp
+[ 20%] Built target rosgraph_msgs_generate_messages_nodejs
+[ 20%] Built target actionlib_msgs_generate_messages_eus
+[ 20%] Built target roscpp_generate_messages_eus
+[ 20%] Built target rosgraph_msgs_generate_messages_py
+[ 20%] Built target tf_generate_messages_lisp
+[ 20%] Built target tf_generate_messages_nodejs
+[ 20%] Built target dynamic_reconfigure_generate_messages_cpp
+[ 20%] Built target tf_generate_messages_py
+[ 20%] Built target kr_mav_msgs_generate_messages_nodejs
+[ 20%] Built target nodelet_generate_messages_py
+[ 20%] Built target sensor_msgs_generate_messages_py
+[ 20%] Built target sensor_msgs_generate_messages_cpp
+[ 20%] Built target sensor_msgs_generate_messages_eus
+[ 20%] Built target actionlib_generate_messages_eus
+[ 20%] Built target tf_generate_messages_cpp
+[ 20%] Built target actionlib_generate_messages_nodejs
+[ 20%] Built target tf2_msgs_generate_messages_cpp
+[ 20%] Built target nav_msgs_generate_messages_eus
+[ 20%] Built target tf2_msgs_generate_messages_eus
+[ 20%] Built target dynamic_reconfigure_gencfg
+[ 20%] Built target nav_msgs_generate_messages_py
+[ 20%] Built target tf2_msgs_generate_messages_lisp
+[ 20%] Built target actionlib_generate_messages_py
+[ 20%] Built target tf2_msgs_generate_messages_py
+[35m[1mScanning dependencies of target kr_mav_so3_control[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/kr_mav_so3_control.dir/src/SO3Control.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/kr_mav_so3_control.dir/src/so3_control_nodelet.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/kr_mav_so3_control.dir/src/so3_trpy_control.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library /home/root/kumarRobotics/autonomy_ws/devel/.private/kr_mav_controllers/lib/libkr_mav_so3_control.so[0m
+[100%] Built target kr_mav_so3_control

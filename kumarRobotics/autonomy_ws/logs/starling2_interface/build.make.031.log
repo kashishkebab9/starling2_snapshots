@@ -1,0 +1,2 @@
+[ 50%] [32m[1mLinking CXX executable /home/root/kumarRobotics/autonomy_ws/devel/.private/starling2_interface/lib/starling2_interface/pose_to_tf[0m
+[100%] Built target pose_to_tf

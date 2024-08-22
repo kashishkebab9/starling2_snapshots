@@ -1,0 +1,7 @@
+[01m[Kc++:[m[K [01;31m[Kerror: [m[Kunrecognized command line option ‘[01m[K-fpersmissive[m[K’; did you mean ‘[01m[K-fpermissive[m[K’?
+[01m[Kc++:[m[K [01;31m[Kerror: [m[Kunrecognized command line option ‘[01m[K-fpersmissive[m[K’; did you mean ‘[01m[K-fpermissive[m[K’?
+make[2]: *** [src/CMakeFiles/cv_bridge.dir/cv_bridge.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** [src/CMakeFiles/cv_bridge.dir/rgb_colors.cpp.o] Error 1
+make[1]: *** [src/CMakeFiles/cv_bridge.dir/all] Error 2
+make: *** [all] Error 2

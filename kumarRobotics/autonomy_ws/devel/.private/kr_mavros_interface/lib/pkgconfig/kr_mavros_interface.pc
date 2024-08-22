@@ -1,0 +1,8 @@
+prefix=/home/root/kumarRobotics/autonomy_ws/devel/.private/kr_mavros_interface
+
+Name: kr_mavros_interface
+Description: Description of kr_mavros_interface
+Version: 1.0.0
+Cflags: -I/usr/include/eigen3
+Libs: -L${prefix}/lib -lkr_mavros_interface
+Requires: roscpp nav_msgs geometry_msgs kr_mav_msgs mavros_msgs nodelet

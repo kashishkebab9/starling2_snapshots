@@ -1,0 +1,6 @@
+kr_mav_control/interfaces/kr_mavros_interface
+/home/root/kumarRobotics/autonomy_ws/devel/.private/kr_mavros_interface/cmake.lock /home/root/kumarRobotics/autonomy_ws/devel/./cmake.lock
+/home/root/kumarRobotics/autonomy_ws/devel/.private/kr_mavros_interface/lib/libkr_mavros_interface.so /home/root/kumarRobotics/autonomy_ws/devel/lib/libkr_mavros_interface.so
+/home/root/kumarRobotics/autonomy_ws/devel/.private/kr_mavros_interface/lib/pkgconfig/kr_mavros_interface.pc /home/root/kumarRobotics/autonomy_ws/devel/lib/pkgconfig/kr_mavros_interface.pc
+/home/root/kumarRobotics/autonomy_ws/devel/.private/kr_mavros_interface/share/kr_mavros_interface/cmake/kr_mavros_interfaceConfig.cmake /home/root/kumarRobotics/autonomy_ws/devel/share/kr_mavros_interface/cmake/kr_mavros_interfaceConfig.cmake
+/home/root/kumarRobotics/autonomy_ws/devel/.private/kr_mavros_interface/share/kr_mavros_interface/cmake/kr_mavros_interfaceConfig-version.cmake /home/root/kumarRobotics/autonomy_ws/devel/share/kr_mavros_interface/cmake/kr_mavros_interfaceConfig-version.cmake

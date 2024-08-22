@@ -1,0 +1,15 @@
+/home/root/kumarRobotics/mavros_test/catkin_ws/install/_setup_util.py
+/home/root/kumarRobotics/mavros_test/catkin_ws/install/env.sh
+/home/root/kumarRobotics/mavros_test/catkin_ws/install/setup.bash
+/home/root/kumarRobotics/mavros_test/catkin_ws/install/local_setup.bash
+/home/root/kumarRobotics/mavros_test/catkin_ws/install/setup.sh
+/home/root/kumarRobotics/mavros_test/catkin_ws/install/local_setup.sh
+/home/root/kumarRobotics/mavros_test/catkin_ws/install/setup.zsh
+/home/root/kumarRobotics/mavros_test/catkin_ws/install/local_setup.zsh
+/home/root/kumarRobotics/mavros_test/catkin_ws/install/.rosinstall
+/home/root/kumarRobotics/mavros_test/catkin_ws/install/lib/pkgconfig/mavros_test.pc
+/home/root/kumarRobotics/mavros_test/catkin_ws/install/share/mavros_test/cmake/mavros_testConfig.cmake
+/home/root/kumarRobotics/mavros_test/catkin_ws/install/share/mavros_test/cmake/mavros_testConfig-version.cmake
+/home/root/kumarRobotics/mavros_test/catkin_ws/install/share/mavros_test/package.xml
+/home/root/kumarRobotics/mavros_test/catkin_ws/install/share/mavros_test/launch/mavros_test.launch
+/home/root/kumarRobotics/mavros_test/catkin_ws/install/lib/mavros_test/mavros_test_node

@@ -1,0 +1,4 @@
+Symlinking /home/root/kumarRobotics/autonomy_ws/devel/lib/libroyale_nodelet.so
+Symlinking /home/root/kumarRobotics/autonomy_ws/devel/lib/pkgconfig/royale_in_ros.pc
+Symlinking /home/root/kumarRobotics/autonomy_ws/devel/share/royale_in_ros/cmake/royale_in_rosConfig.cmake
+Symlinking /home/root/kumarRobotics/autonomy_ws/devel/share/royale_in_ros/cmake/royale_in_rosConfig-version.cmake

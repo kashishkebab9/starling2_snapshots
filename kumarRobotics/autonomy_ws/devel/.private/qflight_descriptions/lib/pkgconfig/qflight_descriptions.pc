@@ -1,0 +1,8 @@
+prefix=/home/root/kumarRobotics/autonomy_ws/devel/.private/qflight_descriptions
+
+Name: qflight_descriptions
+Description: Description of qflight_descriptions
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,38 @@
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/kr_mav_control/trackers/kr_trackers/src/stopping_policy.cpp:[m[K In member function ‘[01m[Kvirtual kr_mav_msgs::PositionCommand_<std::allocator<void> >::ConstPtr StoppingPolicy::update(const ConstPtr&)[m[K’:
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/kr_mav_control/trackers/kr_trackers/src/stopping_policy.cpp:154:32:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdeacc_time[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   double a_des_abs, j_des_abs, [01;35m[Kdeacc_time[m[K, a0, new_cmd_jrk_1d, new_cmd_acc_1d,
+                                [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/kr_mav_control/trackers/kr_trackers/src/stopping_policy.cpp:155:23:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Knew_cmd_pos_1d[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+       new_cmd_vel_1d, [01;35m[Knew_cmd_pos_1d[m[K, phase0_time, t_phase1, t_phase2, t_phase3,
+                       [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/kr_mav_control/trackers/kr_trackers/src/stopping_policy.cpp:155:39:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kphase0_time[m[K’ [[01;35m[K-Wunused-variable[m[K]
+       new_cmd_vel_1d, new_cmd_pos_1d, [01;35m[Kphase0_time[m[K, t_phase1, t_phase2, t_phase3,
+                                       [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/kr_mav_control/trackers/kr_trackers/src/poly_tracker.cpp:[m[K In member function ‘[01m[Kvoid PolyTracker::goal_callback()[m[K’:
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/kr_mav_control/trackers/kr_trackers/src/poly_tracker.cpp:366:38:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+       for(long unsigned int i = 0; [01;35m[Ki < M[m[K; ++i)
+                                    [01;35m[K~~^~~[m[K
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/kr_mav_control/trackers/kr_trackers/src/poly_tracker.cpp:371:33:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+       for(unsigned int i = 0; [01;35m[Ki <= N[m[K; ++i)
+                               [01;35m[K~~^~~~[m[K
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/kr_mav_control/trackers/kr_trackers/src/poly_tracker.cpp:436:26:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+         for(int i = 0; [01;35m[Ki < msg->seg_yaw.size()[m[K; ++i)
+                        [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/kr_mav_control/trackers/kr_trackers/src/poly_tracker.cpp:451:24:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+       for(int i = 0; [01;35m[Ki < msg->seg_x.size()[m[K; ++i)
+                      [01;35m[K~~^~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/root/kumarRobotics/autonomy_ws/src/kr_mav_control/trackers/kr_trackers/src/poly_tracker.cpp:10:0[m[K:
+/home/root/kumarRobotics/autonomy_ws/src/kr_mav_control/trackers/kr_trackers/utils/traj_data.hpp: In instantiation of ‘[01m[Kvoid traj_opt::Piece<dim>::getNcoeffs(Eigen::MatrixXd&) [with int dim = 3; Eigen::MatrixXd = Eigen::Matrix<double, -1, -1>][m[K’:
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/kr_mav_control/trackers/kr_trackers/utils/traj_data.hpp:77:15:[m[K   required from ‘[01m[Ktraj_opt::Piece<dim>::Piece(traj_opt::PolyType, Eigen::MatrixXd, float, int) [with int dim = 3; Eigen::MatrixXd = Eigen::Matrix<double, -1, -1>][m[K’
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/kr_mav_control/trackers/kr_trackers/src/poly_tracker.cpp:390:68:[m[K   required from here
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/kr_mav_control/trackers/kr_trackers/utils/traj_data.hpp:142:5:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KSTANDARD[m[K’ not handled in switch [[01;35m[K-Wswitch[m[K]
+     [01;35m[Kswitch[m[K (basis)
+     [01;35m[K^~~~~~[m[K
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/kr_mav_control/trackers/kr_trackers/utils/traj_data.hpp:142:5:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KENDPOINT[m[K’ not handled in switch [[01;35m[K-Wswitch[m[K]
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/kr_mav_control/trackers/kr_trackers/utils/traj_data.hpp:142:5:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KCHEBYSHEV[m[K’ not handled in switch [[01;35m[K-Wswitch[m[K]
+/home/root/kumarRobotics/autonomy_ws/src/kr_mav_control/trackers/kr_trackers/utils/traj_data.hpp: In instantiation of ‘[01m[Kvoid traj_opt::Piece<dim>::getNcoeffs(Eigen::MatrixXd&) [with int dim = 4; Eigen::MatrixXd = Eigen::Matrix<double, -1, -1>][m[K’:
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/kr_mav_control/trackers/kr_trackers/utils/traj_data.hpp:77:15:[m[K   required from ‘[01m[Ktraj_opt::Piece<dim>::Piece(traj_opt::PolyType, Eigen::MatrixXd, float, int) [with int dim = 4; Eigen::MatrixXd = Eigen::Matrix<double, -1, -1>][m[K’
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/kr_mav_control/trackers/kr_trackers/src/poly_tracker.cpp:413:68:[m[K   required from here
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/kr_mav_control/trackers/kr_trackers/utils/traj_data.hpp:142:5:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KSTANDARD[m[K’ not handled in switch [[01;35m[K-Wswitch[m[K]
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/kr_mav_control/trackers/kr_trackers/utils/traj_data.hpp:142:5:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KENDPOINT[m[K’ not handled in switch [[01;35m[K-Wswitch[m[K]
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/kr_mav_control/trackers/kr_trackers/utils/traj_data.hpp:142:5:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KCHEBYSHEV[m[K’ not handled in switch [[01;35m[K-Wswitch[m[K]

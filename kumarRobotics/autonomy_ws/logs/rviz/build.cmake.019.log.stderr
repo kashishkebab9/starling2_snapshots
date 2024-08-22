@@ -1,0 +1,15 @@
+[31m[1mCMake Error[0m at /opt/ros/melodic/share/catkin/cmake/catkinConfig.cmake:83 (find_package):
+  Could not find a package configuration file provided by "laser_geometry"
+  with any of the following names:
+
+    laser_geometryConfig.cmake
+    laser_geometry-config.cmake
+
+  Add the installation prefix of "laser_geometry" to CMAKE_PREFIX_PATH or set
+  "laser_geometry_DIR" to a directory containing one of the above files.  If
+  "laser_geometry" provides a separate development package or SDK, be sure it
+  has been installed.
+[36mCall Stack (most recent call first):[0m
+  CMakeLists.txt:125 (find_package)
+
+

@@ -1,0 +1,6 @@
+kr_falcon250_interface/mavros_interface
+/home/root/kumarRobotics/autonomy_ws/devel/.private/mavros_interface/cmake.lock /home/root/kumarRobotics/autonomy_ws/devel/./cmake.lock
+/home/root/kumarRobotics/autonomy_ws/devel/.private/mavros_interface/lib/libso3cmd_to_mavros_nodelet.so /home/root/kumarRobotics/autonomy_ws/devel/lib/libso3cmd_to_mavros_nodelet.so
+/home/root/kumarRobotics/autonomy_ws/devel/.private/mavros_interface/lib/pkgconfig/mavros_interface.pc /home/root/kumarRobotics/autonomy_ws/devel/lib/pkgconfig/mavros_interface.pc
+/home/root/kumarRobotics/autonomy_ws/devel/.private/mavros_interface/share/mavros_interface/cmake/mavros_interfaceConfig.cmake /home/root/kumarRobotics/autonomy_ws/devel/share/mavros_interface/cmake/mavros_interfaceConfig.cmake
+/home/root/kumarRobotics/autonomy_ws/devel/.private/mavros_interface/share/mavros_interface/cmake/mavros_interfaceConfig-version.cmake /home/root/kumarRobotics/autonomy_ws/devel/share/mavros_interface/cmake/mavros_interfaceConfig-version.cmake

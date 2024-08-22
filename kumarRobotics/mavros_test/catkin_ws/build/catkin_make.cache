@@ -1,0 +1,2 @@
+mavros_test
+-DCATKIN_DEVEL_PREFIX=/home/root/kumarRobotics/mavros_test/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/root/kumarRobotics/mavros_test/catkin_ws/install -G Unix Makefiles

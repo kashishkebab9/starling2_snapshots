@@ -1,0 +1,8 @@
+prefix=/home/root/kumarRobotics/autonomy_ws/devel/.private/kr_rosflight_interface
+
+Name: kr_rosflight_interface
+Description: Description of kr_rosflight_interface
+Version: 0.1.0
+Cflags: -I/usr/include/eigen3
+Libs: -L${prefix}/lib -lkr_rosflight_interface
+Requires: roscpp nav_msgs geometry_msgs kr_mav_msgs rosflight_msgs nodelet

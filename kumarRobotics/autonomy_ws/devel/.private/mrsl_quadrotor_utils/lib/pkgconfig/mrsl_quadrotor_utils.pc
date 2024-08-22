@@ -1,0 +1,8 @@
+prefix=/home/root/kumarRobotics/autonomy_ws/devel/.private/mrsl_quadrotor_utils
+
+Name: mrsl_quadrotor_utils
+Description: Description of mrsl_quadrotor_utils
+Version: 0.0.0
+Cflags: -I/home/root/kumarRobotics/autonomy_ws/src/mrsl_quadrotor/mrsl_quadrotor_utils/include
+Libs: -L${prefix}/lib -lmrsl_quadrotor_utils
+Requires: roscpp

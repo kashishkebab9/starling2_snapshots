@@ -1,0 +1,84 @@
+[  0%] Built target nav_msgs_generate_messages_cpp
+[  0%] Built target actionlib_generate_messages_eus
+[  0%] Built target decomp_ros_msgs_generate_messages_py
+[  0%] Built target actionlib_generate_messages_py
+[  0%] Built target actionlib_generate_messages_lisp
+[ 14%] [32mBuilding CXX object CMakeFiles/exploration_fsm.dir/src/bg_exploration_fsm.cpp.o[0m
+[ 14%] Built target decomp_ros_msgs_generate_messages_eus
+[ 14%] Built target decomp_ros_msgs_generate_messages_lisp
+[ 14%] Built target sensor_msgs_generate_messages_py
+[ 42%] Built target exploration_manager
+[ 42%] Built target sensor_msgs_generate_messages_eus
+[ 42%] Built target actionlib_msgs_generate_messages_py
+[ 42%] Built target sensor_msgs_generate_messages_cpp
+[ 42%] Built target rosgraph_msgs_generate_messages_py
+[ 42%] Built target actionlib_msgs_generate_messages_eus
+[ 42%] Built target actionlib_msgs_generate_messages_cpp
+[ 42%] Built target actionlib_msgs_generate_messages_lisp
+[ 42%] Built target nav_msgs_generate_messages_py
+[ 42%] Built target rosgraph_msgs_generate_messages_nodejs
+[ 42%] Built target std_msgs_generate_messages_eus
+[ 42%] Built target rosgraph_msgs_generate_messages_eus
+[ 42%] Built target kr_tracker_msgs_generate_messages_cpp
+[ 42%] Built target actionlib_generate_messages_nodejs
+[ 42%] Built target decomp_ros_msgs_generate_messages_cpp
+[ 42%] Built target rosgraph_msgs_generate_messages_lisp
+[ 42%] Built target rosgraph_msgs_generate_messages_cpp
+[ 42%] Built target roscpp_generate_messages_py
+[ 42%] Built target roscpp_generate_messages_eus
+[ 42%] Built target std_msgs_generate_messages_py
+[ 42%] Built target roscpp_generate_messages_lisp
+[ 42%] Built target roscpp_generate_messages_nodejs
+[ 42%] Built target kr_tracker_msgs_generate_messages_eus
+[ 42%] Built target geometry_msgs_generate_messages_eus
+[ 42%] Built target sensor_msgs_generate_messages_nodejs
+[ 42%] Built target actionlib_generate_messages_cpp
+[ 42%] Built target actionlib_msgs_generate_messages_nodejs
+[ 42%] Built target nav_msgs_generate_messages_nodejs
+[ 42%] Built target roscpp_generate_messages_cpp
+[ 42%] Built target geometry_msgs_generate_messages_nodejs
+[ 42%] Built target std_msgs_generate_messages_cpp
+[ 42%] Built target sensor_msgs_generate_messages_lisp
+[ 42%] Built target kr_mav_msgs_generate_messages_py
+[ 42%] Built target nav_msgs_generate_messages_eus
+[ 42%] Built target kr_tracker_msgs_generate_messages_py
+[ 42%] Built target std_msgs_generate_messages_lisp
+[ 42%] Built target std_msgs_generate_messages_nodejs
+[ 42%] Built target kr_tracker_msgs_generate_messages_lisp
+[ 42%] Built target geometry_msgs_generate_messages_lisp
+[ 42%] Built target geometry_msgs_generate_messages_cpp
+[ 42%] Built target geometry_msgs_generate_messages_py
+[ 42%] Built target nav_msgs_generate_messages_lisp
+[ 42%] Built target kr_mav_msgs_generate_messages_eus
+[ 42%] Built target decomp_ros_msgs_generate_messages_nodejs
+[ 42%] Built target kr_mav_msgs_generate_messages_cpp
+[ 42%] Built target kr_mav_msgs_generate_messages_nodejs
+[ 42%] Built target kr_mav_msgs_generate_messages_lisp
+[ 42%] Built target kr_tracker_msgs_generate_messages_nodejs
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/exploration_manager/src/bg_exploration_fsm.cpp:[m[K In member function ‘[01m[Kvoid bg_planner::bgExplorationFSM::FSMCallback(const ros::TimerEvent&)[m[K’:
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/exploration_manager/src/bg_exploration_fsm.cpp:270:23:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kpos[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+       Eigen::Vector3d [01;35m[Kpos[m[K = info->traj_.getPos(t_cur);
+                       [01;35m[K^~~[m[K
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/exploration_manager/src/bg_exploration_fsm.cpp:271:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kyaw[m[K’ [[01;35m[K-Wunused-variable[m[K]
+       double [01;35m[Kyaw[m[K = info->yaw_traj_.getPos(t_cur);
+              [01;35m[K^~~[m[K
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/exploration_manager/src/bg_exploration_fsm.cpp:295:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kfc[m[K’ [[01;35m[K-Wunused-variable[m[K]
+       bool [01;35m[Kfc[m[K = expl_manager_->frontier_finder_->isFrontierCovered();
+            [01;35m[K^~[m[K
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/exploration_manager/src/bg_exploration_fsm.cpp:[m[K In member function ‘[01m[Kvoid bg_planner::bgExplorationFSM::publishTraj()[m[K’:
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/exploration_manager/src/bg_exploration_fsm.cpp:470:26:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+       for (uint c = 0; [01;35m[Kc <= order[m[K; c++) {
+                        [01;35m[K~~^~~~~~~~[m[K
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/exploration_manager/src/bg_exploration_fsm.cpp:494:28:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+         for (uint c = 0; [01;35m[Kc <= order[m[K; c++) {
+                          [01;35m[K~~^~~~~~~~[m[K
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/exploration_manager/src/bg_exploration_fsm.cpp:[m[K In member function ‘[01m[Kvoid bg_planner::bgExplorationFSM::visualize()[m[K’:
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/exploration_manager/src/bg_exploration_fsm.cpp:519:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kinfo[m[K’ [[01;35m[K-Wunused-variable[m[K]
+     auto [01;35m[Kinfo[m[K = &planner_manager_->local_data_;
+          [01;35m[K^~~~[m[K
+[ 57%] [32m[1mLinking CXX shared library /home/root/kumarRobotics/autonomy_ws/devel/.private/exploration_manager/lib/libexploration_fsm.so[0m
+[ 71%] Built target exploration_fsm
+[35m[1mScanning dependencies of target exploration_node[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/exploration_node.dir/src/exploration_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/root/kumarRobotics/autonomy_ws/devel/.private/exploration_manager/lib/exploration_manager/exploration_node[0m
+[100%] Built target exploration_node

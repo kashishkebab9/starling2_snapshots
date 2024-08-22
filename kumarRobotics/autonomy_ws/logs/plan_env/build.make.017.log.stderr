@@ -1,0 +1,15 @@
+In file included from [01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/plan_env/src/sdf_map.cpp:2:0[m[K:
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/plan_env/include/plan_env/map_ros.h:12:10:[m[K [01;31m[Kfatal error: [m[Kcv_bridge/cv_bridge.h: No such file or directory
+ #include [01;31m[K<cv_bridge/cv_bridge.h>[m[K
+          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/plan_env.dir/src/sdf_map.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/plan_env/src/map_ros.cpp:2:0[m[K:
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/planner/plan_env/include/plan_env/map_ros.h:12:10:[m[K [01;31m[Kfatal error: [m[Kcv_bridge/cv_bridge.h: No such file or directory
+ #include [01;31m[K<cv_bridge/cv_bridge.h>[m[K
+          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/plan_env.dir/src/map_ros.cpp.o] Error 1
+make[1]: *** [CMakeFiles/plan_env.dir/all] Error 2
+make: *** [all] Error 2

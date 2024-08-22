@@ -1,0 +1,2 @@
+[ 50%] [32m[1mLinking CXX executable /home/root/kumarRobotics/autonomy_ws/devel/.private/local_sensing_node/lib/local_sensing_node/pcl_render_node[0m
+[100%] Built target pcl_render_node

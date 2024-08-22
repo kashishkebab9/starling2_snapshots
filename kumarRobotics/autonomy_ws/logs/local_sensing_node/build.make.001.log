@@ -1,0 +1,12 @@
+[35m[1mScanning dependencies of target pcl_render_node[0m
+make[2]: *** No rule to make target '/usr/lib/aarch64-linux-gnu/liblz4.so', needed by '/home/root/kumarRobotics/autonomy_ws/devel/.private/local_sensing_node/lib/local_sensing_node/pcl_render_node'.  Stop.
+make[2]: *** Waiting for unfinished jobs....
+[ 50%] [32mBuilding CXX object CMakeFiles/pcl_render_node.dir/src/depth_render_node.cpp.o[0m
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/third_party/local_sensing/src/depth_render_node.cpp:[m[K In function ‘[01m[Kvoid pointCloudCallBack(const PointCloud2&)[m[K’:
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/exploration/third_party/local_sensing/src/depth_render_node.cpp:108:63:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 2 has type ‘[01m[Kstd::vector<pcl::PointXYZ, Eigen::aligned_allocator<pcl::PointXYZ> >::size_type {aka long unsigned int}[m[K’ [[01;35m[K-Wformat=[m[K]
+   printf("global map has points: %d.\n", [32m[KcloudIn.points.size()[m[K[01;35m[K)[m[K;
+                                          [32m[K~~~~~~~~~~~~~~~~~~~~~[m[K[01;35m[K^[m[K
+CMakeFiles/Makefile2:2819: recipe for target 'CMakeFiles/pcl_render_node.dir/all' failed
+Makefile:140: recipe for target 'all' failed
+make[1]: *** [CMakeFiles/pcl_render_node.dir/all] Error 2
+make: *** [all] Error 2

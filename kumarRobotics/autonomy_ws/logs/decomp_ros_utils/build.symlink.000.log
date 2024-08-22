@@ -1,0 +1,3 @@
+Symlinking /home/root/kumarRobotics/autonomy_ws/devel/lib/pkgconfig/decomp_ros_utils.pc
+Symlinking /home/root/kumarRobotics/autonomy_ws/devel/share/decomp_ros_utils/cmake/decomp_ros_utilsConfig.cmake
+Symlinking /home/root/kumarRobotics/autonomy_ws/devel/share/decomp_ros_utils/cmake/decomp_ros_utilsConfig-version.cmake

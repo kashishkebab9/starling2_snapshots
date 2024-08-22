@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target kr_mesh_visualization[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/kr_mesh_visualization.dir/src/mesh_visualization.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/root/kumarRobotics/autonomy_ws/devel/.private/kr_mesh_visualization/lib/kr_mesh_visualization/kr_mesh_visualization[0m
+[100%] Built target kr_mesh_visualization

@@ -1,0 +1,11 @@
+Symlinking /home/root/kumarRobotics/autonomy_ws/devel/lib/pkgconfig/mrsl_quadrotor_utils.pc
+Symlinking /home/root/kumarRobotics/autonomy_ws/devel/lib/mrsl_quadrotor_utils/tf_pub
+Symlinking /home/root/kumarRobotics/autonomy_ws/devel/lib/mrsl_quadrotor_utils/change_header
+Symlinking /home/root/kumarRobotics/autonomy_ws/devel/lib/mrsl_quadrotor_utils/msg_to_tf
+Symlinking /home/root/kumarRobotics/autonomy_ws/devel/lib/mrsl_quadrotor_utils/change_odom
+Symlinking /home/root/kumarRobotics/autonomy_ws/devel/lib/mrsl_quadrotor_utils/publish_tf
+Symlinking /home/root/kumarRobotics/autonomy_ws/devel/lib/mrsl_quadrotor_utils/change_frame
+Symlinking /home/root/kumarRobotics/autonomy_ws/devel/lib/mrsl_quadrotor_utils/publish_horizon
+Symlinking /home/root/kumarRobotics/autonomy_ws/devel/lib/mrsl_quadrotor_utils/publish_rotate
+Symlinking /home/root/kumarRobotics/autonomy_ws/devel/share/mrsl_quadrotor_utils/cmake/mrsl_quadrotor_utilsConfig.cmake
+Symlinking /home/root/kumarRobotics/autonomy_ws/devel/share/mrsl_quadrotor_utils/cmake/mrsl_quadrotor_utilsConfig-version.cmake

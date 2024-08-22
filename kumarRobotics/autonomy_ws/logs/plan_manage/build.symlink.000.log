@@ -1,0 +1,4 @@
+Symlinking /home/root/kumarRobotics/autonomy_ws/devel/lib/libplan_manage.so
+Symlinking /home/root/kumarRobotics/autonomy_ws/devel/lib/pkgconfig/plan_manage.pc
+Symlinking /home/root/kumarRobotics/autonomy_ws/devel/share/plan_manage/cmake/plan_manageConfig.cmake
+Symlinking /home/root/kumarRobotics/autonomy_ws/devel/share/plan_manage/cmake/plan_manageConfig-version.cmake

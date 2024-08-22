@@ -1,0 +1,21 @@
+[31m[1mCMake Error[0m at /home/root/kumarRobotics/autonomy_ws/src/gazebo_ros_pkgs/gazebo_dev/cmake/gazebo_dev-extras.cmake:2 (find_package):
+  By not providing "Findgazebo.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "gazebo", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by "gazebo" with any
+  of the following names:
+
+    gazeboConfig.cmake
+    gazebo-config.cmake
+
+  Add the installation prefix of "gazebo" to CMAKE_PREFIX_PATH or set
+  "gazebo_DIR" to a directory containing one of the above files.  If "gazebo"
+  provides a separate development package or SDK, be sure it has been
+  installed.
+[36mCall Stack (most recent call first):[0m
+  /home/root/kumarRobotics/autonomy_ws/devel/share/gazebo_dev/cmake/gazebo_devConfig.cmake:222 (include)
+  /opt/ros/melodic/share/catkin/cmake/catkinConfig.cmake:76 (find_package)
+  CMakeLists.txt:4 (find_package)
+
+

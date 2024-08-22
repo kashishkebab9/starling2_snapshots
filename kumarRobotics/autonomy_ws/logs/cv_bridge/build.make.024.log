@@ -1,0 +1,43 @@
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[ 33%] [32mBuilding CXX object src/CMakeFiles/cv_bridge.dir/cv_bridge.cpp.o[0m
+[ 33%] [32mBuilding CXX object src/CMakeFiles/cv_bridge.dir/rgb_colors.cpp.o[0m
+[ 50%] [32m[1mLinking CXX shared library /home/root/kumarRobotics/autonomy_ws/devel/.private/cv_bridge/lib/libcv_bridge.so[0m
+[ 50%] Built target cv_bridge
+[ 83%] [32mBuilding CXX object src/CMakeFiles/cv_bridge_boost.dir/module.cpp.o[0m
+[ 83%] [32mBuilding CXX object src/CMakeFiles/cv_bridge_boost.dir/module_opencv4.cpp.o[0m
+In file included from [01m[K/usr/local/lib/python2.7/dist-packages/numpy/core/include/numpy/ndarrayobject.h:21:0[m[K,
+                 from [01m[K/home/root/kumarRobotics/autonomy_ws/src/vision_opencv/cv_bridge/src/module.hpp:26[m[K,
+                 from [01m[K/home/root/kumarRobotics/autonomy_ws/src/vision_opencv/cv_bridge/src/module_opencv4.cpp:3[m[K:
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/vision_opencv/cv_bridge/src/module.hpp:[m[K In function ‘[01m[Kvoid* do_numpy_import()[m[K’:
+[01m[K/usr/local/lib/python2.7/dist-packages/numpy/core/include/numpy/__multiarray_api.h:1546:144:[m[K [01;35m[Kwarning: [m[Kreturn-statement with no value, in function returning ‘[01m[Kvoid*[m[K’ [[01;35m[K-fpermissive[m[K]
+ #define import_array() {if (_import_array() < 0) {PyErr_Print(); PyErr_SetString(PyExc_ImportError, "numpy.core.multiarray failed to import"); [01;35m[Kr[m[Keturn NUMPY_IMPORT_ARRAY_RETVAL; } }
+                                                                                                                                                [01;35m[K^[m[K
+[01m[K/usr/local/lib/python2.7/dist-packages/numpy/core/include/numpy/__multiarray_api.h:1546:144:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[Kimport_array[m[K’
+ #define import_array() {if (_import_array() < 0) {PyErr_Print(); PyErr_SetString(PyExc_ImportError, "numpy.core.multiarray failed to import"); [01;36m[Kreturn[m[K NUMPY_IMPORT_ARRAY_RETVAL; } }
+                                                                                                                                                [01;36m[K^~~~~~[m[K
+In file included from [01m[K/usr/local/lib/python2.7/dist-packages/numpy/core/include/numpy/ndarrayobject.h:21:0[m[K,
+                 from [01m[K/home/root/kumarRobotics/autonomy_ws/src/vision_opencv/cv_bridge/src/module.hpp:26[m[K,
+                 from [01m[K/home/root/kumarRobotics/autonomy_ws/src/vision_opencv/cv_bridge/src/module.cpp:35[m[K:
+[01m[K/home/root/kumarRobotics/autonomy_ws/src/vision_opencv/cv_bridge/src/module.hpp:[m[K In function ‘[01m[Kvoid* do_numpy_import()[m[K’:
+[01m[K/usr/local/lib/python2.7/dist-packages/numpy/core/include/numpy/__multiarray_api.h:1546:144:[m[K [01;35m[Kwarning: [m[Kreturn-statement with no value, in function returning ‘[01m[Kvoid*[m[K’ [[01;35m[K-fpermissive[m[K]
+ #define import_array() {if (_import_array() < 0) {PyErr_Print(); PyErr_SetString(PyExc_ImportError, "numpy.core.multiarray failed to import"); [01;35m[Kr[m[Keturn NUMPY_IMPORT_ARRAY_RETVAL; } }
+                                                                                                                                                [01;35m[K^[m[K
+[01m[K/usr/local/lib/python2.7/dist-packages/numpy/core/include/numpy/__multiarray_api.h:1546:144:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[Kimport_array[m[K’
+ #define import_array() {if (_import_array() < 0) {PyErr_Print(); PyErr_SetString(PyExc_ImportError, "numpy.core.multiarray failed to import"); [01;36m[Kreturn[m[K NUMPY_IMPORT_ARRAY_RETVAL; } }
+                                                                                                                                                [01;36m[K^~~~~~[m[K
+[100%] [32m[1mLinking CXX shared library /home/root/kumarRobotics/autonomy_ws/devel/.private/cv_bridge/lib/python2.7/dist-packages/cv_bridge/boost/cv_bridge_boost.so[0m
+[100%] Built target cv_bridge_boost
